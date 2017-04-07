@@ -1,0 +1,543 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:zener
+LIBS:xtal
+LIBS:vutmi
+LIBS:vusb
+LIBS:vtarget
+LIBS:vpll
+LIBS:vout
+LIBS:vio
+LIBS:vin
+LIBS:vcore
+LIBS:vbu
+LIBS:varef
+LIBS:vana
+LIBS:USB3300
+LIBS:usb334x
+LIBS:usb
+LIBS:ts3usb31
+LIBS:tps27081a
+LIBS:tps6040x
+LIBS:tpd4s012
+LIBS:tp4056
+LIBS:tlv713
+LIBS:thermistor
+LIBS:testpoint
+LIBS:test
+LIBS:tactile-4
+LIBS:spiflash
+LIBS:solder-jumper-nc
+LIBS:slide-spdt
+LIBS:sit1602
+LIBS:sip32401a
+LIBS:si8410
+LIBS:schottky
+LIBS:SAM3U-144
+LIBS:rs485trx-fullduplex
+LIBS:relay
+LIBS:r4
+LIBS:r
+LIBS:pwr
+LIBS:powersyms
+LIBS:power_flag
+LIBS:pot
+LIBS:pnp
+LIBS:pmos
+LIBS:phone-3
+LIBS:op-amp
+LIBS:npn
+LIBS:nmos
+LIBS:nmos-pmos-sot23-6
+LIBS:nmos-pmos-sot-666
+LIBS:mun53
+LIBS:mpu6050
+LIBS:mpu-6050
+LIBS:mpl3115a2
+LIBS:mounting-hole
+LIBS:mounthole
+LIBS:mkl27zxxvfm4
+LIBS:MKL26ZxxVFM4
+LIBS:mkl03zxxvfk4
+LIBS:mkl03zxxvfg4
+LIBS:microsd
+LIBS:mic5365
+LIBS:mic5205
+LIBS:mcp3221
+LIBS:mchck
+LIBS:max9938
+LIBS:max6070
+LIBS:max4737eud
+LIBS:mag3110
+LIBS:ltc3260
+LIBS:lt6106
+LIBS:lt6102
+LIBS:lpddrx16
+LIBS:lpc824
+LIBS:lpc812
+LIBS:ln1410
+LIBS:lm27313
+LIBS:lm3671
+LIBS:lm78xx-so8
+LIBS:lis2-lga12
+LIBS:led
+LIBS:ldo-sot-23-5
+LIBS:lcd5110
+LIBS:l
+LIBS:k22f-64lqfp
+LIBS:jumper
+LIBS:jtag
+LIBS:ip425xcz12
+LIBS:ina199
+LIBS:in-amp
+LIBS:ICE40HX4K-144
+LIBS:gnd
+LIBS:fuse
+LIBS:ferrite
+LIBS:esp-12
+LIBS:dtc-npn
+LIBS:drv883x
+LIBS:drdc3105
+LIBS:debugheader
+LIBS:d
+LIBS:cp
+LIBS:conn-8
+LIBS:conn-7
+LIBS:conn-6
+LIBS:conn-5
+LIBS:conn-4
+LIBS:conn-3
+LIBS:conn-2x5
+LIBS:conn-2
+LIBS:conn-1
+LIBS:com
+LIBS:cm1624
+LIBS:c
+LIBS:buck-sot23-6
+LIBS:buck-sot23-5
+LIBS:bat
+LIBS:ant
+LIBS:ad8429
+LIBS:acs711ex
+LIBS:aat3681a
+LIBS:aat1217
+LIBS:74vc2t45
+LIBS:74vc1t45
+LIBS:74avc4t245
+LIBS:2-spst
+LIBS:+vs
+LIBS:+15v
+LIBS:+5v
+LIBS:+3v3
+LIBS:+3v
+LIBS:+1v8
+LIBS:+1v2
+LIBS:-vs
+LIBS:-15v
+LIBS:switches
+LIBS:video
+LIBS:switcher
+LIBS:supervisor
+LIBS:resist
+LIBS:renesas
+LIBS:radio
+LIBS:pspice
+LIBS:protection
+LIBS:power-switches
+LIBS:periph
+LIBS:mech-switch
+LIBS:linear
+LIBS:inductive
+LIBS:i2c
+LIBS:hc11
+LIBS:graphic
+LIBS:fluid
+LIBS:figaro
+LIBS:fet
+LIBS:diode
+LIBS:digpot
+LIBS:capacitive
+LIBS:can
+LIBS:bjt
+LIBS:automation
+LIBS:analog-switches
+LIBS:cb-imu-cache
+LIBS:BBC Hat-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 12600 2000 2    60   Input ~ 0
+ADC0
+$Comp
+L R R?
+U 1 1 58E7ADA4
+P 11900 1750
+F 0 "R?" H 11970 1796 50  0000 L CNN
+F 1 "390" H 11970 1705 50  0000 L CNN
+F 2 "" V 11830 1750 50  0000 C CNN
+F 3 "" H 11900 1750 50  0000 C CNN
+	1    11900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58E7ADA5
+P 11900 2200
+F 0 "R?" H 11970 2246 50  0000 L CNN
+F 1 "680" H 11970 2155 50  0000 L CNN
+F 2 "" V 11830 2200 50  0000 C CNN
+F 3 "" H 11900 2200 50  0000 C CNN
+	1    11900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_ZENER D?
+U 1 1 58E7ADA6
+P 12250 2200
+F 0 "D?" V 12333 2122 60  0000 R CNN
+F 1 "3.6v - BZX84" V 12227 2122 60  0000 R CNN
+F 2 "Pkg" V 12144 2122 30  0000 R CNN
+F 3 "" H 12250 2200 50  0000 C CNN
+	1    12250 2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11600 1500 0    60   Input ~ 0
+ANV0
+Wire Wire Line
+	11600 1500 11900 1500
+Wire Wire Line
+	11900 1500 11900 1600
+Wire Wire Line
+	11900 1900 11900 2050
+Wire Wire Line
+	11900 2000 12600 2000
+Connection ~ 11900 2000
+Wire Wire Line
+	11900 2350 11900 2500
+Wire Wire Line
+	11900 2500 12250 2500
+Wire Wire Line
+	12250 2500 12250 2400
+Wire Wire Line
+	12050 2500 12050 2600
+Connection ~ 12050 2500
+$Comp
+L GND #PWR?
+U 1 1 58E7ADA7
+P 12050 2600
+F 0 "#PWR?" H 12050 2350 50  0001 C CNN
+F 1 "GND" H 12055 2427 50  0000 C CNN
+F 2 "" H 12050 2600 50  0000 C CNN
+F 3 "" H 12050 2600 50  0000 C CNN
+	1    12050 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 12250 2000
+Text GLabel 12600 3400 2    60   Input ~ 0
+ADC0
+$Comp
+L R R?
+U 1 1 58E7ADA8
+P 11900 3150
+F 0 "R?" H 11970 3196 50  0000 L CNN
+F 1 "390" H 11970 3105 50  0000 L CNN
+F 2 "" V 11830 3150 50  0000 C CNN
+F 3 "" H 11900 3150 50  0000 C CNN
+	1    11900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58E7ADA9
+P 11900 3600
+F 0 "R?" H 11970 3646 50  0000 L CNN
+F 1 "680" H 11970 3555 50  0000 L CNN
+F 2 "" V 11830 3600 50  0000 C CNN
+F 3 "" H 11900 3600 50  0000 C CNN
+	1    11900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_ZENER D?
+U 1 1 58E7ADAA
+P 12250 3600
+F 0 "D?" V 12333 3522 60  0000 R CNN
+F 1 "3.6v - BZX84" V 12227 3522 60  0000 R CNN
+F 2 "Pkg" V 12144 3522 30  0000 R CNN
+F 3 "" H 12250 3600 50  0000 C CNN
+	1    12250 3600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11600 2900 0    60   Input ~ 0
+ANV0
+Wire Wire Line
+	11600 2900 11900 2900
+Wire Wire Line
+	11900 2900 11900 3000
+Wire Wire Line
+	11900 3300 11900 3450
+Wire Wire Line
+	11900 3400 12600 3400
+Connection ~ 11900 3400
+Wire Wire Line
+	11900 3750 11900 3900
+Wire Wire Line
+	11900 3900 12250 3900
+Wire Wire Line
+	12250 3900 12250 3800
+Wire Wire Line
+	12050 3900 12050 4000
+Connection ~ 12050 3900
+$Comp
+L GND #PWR?
+U 1 1 58E7ADAB
+P 12050 4000
+F 0 "#PWR?" H 12050 3750 50  0001 C CNN
+F 1 "GND" H 12055 3827 50  0000 C CNN
+F 2 "" H 12050 4000 50  0000 C CNN
+F 3 "" H 12050 4000 50  0000 C CNN
+	1    12050 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 12250 3400
+Text GLabel 12500 4700 2    60   Input ~ 0
+ADC0
+$Comp
+L R R?
+U 1 1 58E7ADAC
+P 11800 4450
+F 0 "R?" H 11870 4496 50  0000 L CNN
+F 1 "390" H 11870 4405 50  0000 L CNN
+F 2 "" V 11730 4450 50  0000 C CNN
+F 3 "" H 11800 4450 50  0000 C CNN
+	1    11800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58E7ADAD
+P 11800 4900
+F 0 "R?" H 11870 4946 50  0000 L CNN
+F 1 "680" H 11870 4855 50  0000 L CNN
+F 2 "" V 11730 4900 50  0000 C CNN
+F 3 "" H 11800 4900 50  0000 C CNN
+	1    11800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_ZENER D?
+U 1 1 58E7ADAE
+P 12150 4900
+F 0 "D?" V 12233 4822 60  0000 R CNN
+F 1 "3.6v - BZX84" V 12127 4822 60  0000 R CNN
+F 2 "Pkg" V 12044 4822 30  0000 R CNN
+F 3 "" H 12150 4900 50  0000 C CNN
+	1    12150 4900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11500 4200 0    60   Input ~ 0
+ANV0
+Wire Wire Line
+	11500 4200 11800 4200
+Wire Wire Line
+	11800 4200 11800 4300
+Wire Wire Line
+	11800 4600 11800 4750
+Wire Wire Line
+	11800 4700 12500 4700
+Connection ~ 11800 4700
+Wire Wire Line
+	11800 5050 11800 5200
+Wire Wire Line
+	11800 5200 12150 5200
+Wire Wire Line
+	12150 5200 12150 5100
+Wire Wire Line
+	11950 5200 11950 5300
+Connection ~ 11950 5200
+$Comp
+L GND #PWR?
+U 1 1 58E7ADAF
+P 11950 5300
+F 0 "#PWR?" H 11950 5050 50  0001 C CNN
+F 1 "GND" H 11955 5127 50  0000 C CNN
+F 2 "" H 11950 5300 50  0000 C CNN
+F 3 "" H 11950 5300 50  0000 C CNN
+	1    11950 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 12150 4700
+Text GLabel 12500 6100 2    60   Input ~ 0
+ADC0
+$Comp
+L R R?
+U 1 1 58E7ADB0
+P 11800 5850
+F 0 "R?" H 11870 5896 50  0000 L CNN
+F 1 "390" H 11870 5805 50  0000 L CNN
+F 2 "" V 11730 5850 50  0000 C CNN
+F 3 "" H 11800 5850 50  0000 C CNN
+	1    11800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58E7ADB1
+P 11800 6300
+F 0 "R?" H 11870 6346 50  0000 L CNN
+F 1 "680" H 11870 6255 50  0000 L CNN
+F 2 "" V 11730 6300 50  0000 C CNN
+F 3 "" H 11800 6300 50  0000 C CNN
+	1    11800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_ZENER D?
+U 1 1 58E7ADB2
+P 12150 6300
+F 0 "D?" V 12233 6222 60  0000 R CNN
+F 1 "3.6v - BZX84" V 12127 6222 60  0000 R CNN
+F 2 "Pkg" V 12044 6222 30  0000 R CNN
+F 3 "" H 12150 6300 50  0000 C CNN
+	1    12150 6300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11500 5600 0    60   Input ~ 0
+ANV0
+Wire Wire Line
+	11500 5600 11800 5600
+Wire Wire Line
+	11800 5600 11800 5700
+Wire Wire Line
+	11800 6000 11800 6150
+Wire Wire Line
+	11800 6100 12500 6100
+Connection ~ 11800 6100
+Wire Wire Line
+	11800 6450 11800 6600
+Wire Wire Line
+	11800 6600 12150 6600
+Wire Wire Line
+	12150 6600 12150 6500
+Wire Wire Line
+	11950 6600 11950 6700
+Connection ~ 11950 6600
+$Comp
+L GND #PWR?
+U 1 1 58E7ADB3
+P 11950 6700
+F 0 "#PWR?" H 11950 6450 50  0001 C CNN
+F 1 "GND" H 11955 6527 50  0000 C CNN
+F 2 "" H 11950 6700 50  0000 C CNN
+F 3 "" H 11950 6700 50  0000 C CNN
+	1    11950 6700
+	1    0    0    -1  
+$EndComp
+Connection ~ 12150 6100
+Text GLabel 12450 7450 2    60   Input ~ 0
+ADC0
+$Comp
+L R R?
+U 1 1 58E7ADB4
+P 11750 7200
+F 0 "R?" H 11820 7246 50  0000 L CNN
+F 1 "390" H 11820 7155 50  0000 L CNN
+F 2 "" V 11680 7200 50  0000 C CNN
+F 3 "" H 11750 7200 50  0000 C CNN
+	1    11750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58E7ADB5
+P 11750 7650
+F 0 "R?" H 11820 7696 50  0000 L CNN
+F 1 "680" H 11820 7605 50  0000 L CNN
+F 2 "" V 11680 7650 50  0000 C CNN
+F 3 "" H 11750 7650 50  0000 C CNN
+	1    11750 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_ZENER D?
+U 1 1 58E7ADB6
+P 12100 7650
+F 0 "D?" V 12183 7572 60  0000 R CNN
+F 1 "3.6v - BZX84" V 12077 7572 60  0000 R CNN
+F 2 "Pkg" V 11994 7572 30  0000 R CNN
+F 3 "" H 12100 7650 50  0000 C CNN
+	1    12100 7650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11450 6950 0    60   Input ~ 0
+ANV0
+Wire Wire Line
+	11450 6950 11750 6950
+Wire Wire Line
+	11750 6950 11750 7050
+Wire Wire Line
+	11750 7350 11750 7500
+Wire Wire Line
+	11750 7450 12450 7450
+Connection ~ 11750 7450
+Wire Wire Line
+	11750 7800 11750 7950
+Wire Wire Line
+	11750 7950 12100 7950
+Wire Wire Line
+	12100 7950 12100 7850
+Wire Wire Line
+	11900 7950 11900 8050
+Connection ~ 11900 7950
+$Comp
+L GND #PWR?
+U 1 1 58E7ADB7
+P 11900 8050
+F 0 "#PWR?" H 11900 7800 50  0001 C CNN
+F 1 "GND" H 11905 7877 50  0000 C CNN
+F 2 "" H 11900 8050 50  0000 C CNN
+F 3 "" H 11900 8050 50  0000 C CNN
+	1    11900 8050
+	1    0    0    -1  
+$EndComp
+Connection ~ 12100 7450
+$EndSCHEMATC

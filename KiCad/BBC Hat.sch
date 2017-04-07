@@ -3,7 +3,6 @@ LIBS:power
 LIBS:device
 LIBS:transistors
 LIBS:conn
-LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
@@ -28,11 +27,175 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:stm32
+LIBS:zener
+LIBS:xtal
+LIBS:vutmi
+LIBS:vusb
+LIBS:vtarget
+LIBS:vpll
+LIBS:vout
+LIBS:vio
+LIBS:vin
+LIBS:vcore
+LIBS:vbu
+LIBS:varef
+LIBS:vana
+LIBS:USB3300
+LIBS:usb334x
+LIBS:usb
+LIBS:ts3usb31
+LIBS:tps27081a
+LIBS:tps6040x
+LIBS:tpd4s012
+LIBS:tp4056
+LIBS:tlv713
+LIBS:thermistor
+LIBS:testpoint
+LIBS:test
+LIBS:tactile-4
+LIBS:spiflash
+LIBS:solder-jumper-nc
+LIBS:slide-spdt
+LIBS:sit1602
+LIBS:sip32401a
+LIBS:si8410
+LIBS:schottky
+LIBS:SAM3U-144
+LIBS:rs485trx-fullduplex
+LIBS:relay
+LIBS:r4
+LIBS:r
+LIBS:pwr
+LIBS:powersyms
+LIBS:power_flag
+LIBS:pot
+LIBS:pnp
+LIBS:pmos
+LIBS:phone-3
+LIBS:op-amp
+LIBS:npn
+LIBS:nmos
+LIBS:nmos-pmos-sot23-6
+LIBS:nmos-pmos-sot-666
+LIBS:mun53
+LIBS:mpu6050
+LIBS:mpu-6050
+LIBS:mpl3115a2
+LIBS:mounting-hole
+LIBS:mounthole
+LIBS:mkl27zxxvfm4
+LIBS:MKL26ZxxVFM4
+LIBS:mkl03zxxvfk4
+LIBS:mkl03zxxvfg4
+LIBS:microsd
+LIBS:mic5365
+LIBS:mic5205
+LIBS:mcp3221
+LIBS:mchck
+LIBS:max9938
+LIBS:max6070
+LIBS:max4737eud
+LIBS:mag3110
+LIBS:ltc3260
+LIBS:lt6106
+LIBS:lt6102
+LIBS:lpddrx16
+LIBS:lpc824
+LIBS:lpc812
+LIBS:ln1410
+LIBS:lm27313
+LIBS:lm3671
+LIBS:lm78xx-so8
+LIBS:lis2-lga12
+LIBS:led
+LIBS:ldo-sot-23-5
+LIBS:lcd5110
+LIBS:l
+LIBS:k22f-64lqfp
+LIBS:jumper
+LIBS:jtag
+LIBS:ip425xcz12
+LIBS:ina199
+LIBS:in-amp
+LIBS:ICE40HX4K-144
+LIBS:gnd
+LIBS:fuse
+LIBS:ferrite
+LIBS:esp-12
+LIBS:dtc-npn
+LIBS:drv883x
+LIBS:drdc3105
+LIBS:debugheader
+LIBS:d
+LIBS:cp
+LIBS:conn-8
+LIBS:conn-7
+LIBS:conn-6
+LIBS:conn-5
+LIBS:conn-4
+LIBS:conn-3
+LIBS:conn-2x5
+LIBS:conn-2
+LIBS:conn-1
+LIBS:com
+LIBS:cm1624
+LIBS:c
+LIBS:buck-sot23-6
+LIBS:buck-sot23-5
+LIBS:bat
+LIBS:ant
+LIBS:ad8429
+LIBS:acs711ex
+LIBS:aat3681a
+LIBS:aat1217
+LIBS:74vc2t45
+LIBS:74vc1t45
+LIBS:74avc4t245
+LIBS:2-spst
+LIBS:+vs
+LIBS:+15v
+LIBS:+5v
+LIBS:+3v3
+LIBS:+3v
+LIBS:+1v8
+LIBS:+1v2
+LIBS:-vs
+LIBS:-15v
+LIBS:switches
+LIBS:video
+LIBS:switcher
+LIBS:supervisor
+LIBS:resist
+LIBS:renesas
+LIBS:radio
+LIBS:pspice
+LIBS:protection
+LIBS:power-switches
+LIBS:periph
+LIBS:mech-switch
+LIBS:linear
+LIBS:inductive
+LIBS:i2c
+LIBS:hc11
+LIBS:graphic
+LIBS:fluid
+LIBS:figaro
+LIBS:fet
+LIBS:diode
+LIBS:digpot
+LIBS:capacitive
+LIBS:can
+LIBS:bjt
+LIBS:automation
+LIBS:analog-switches
+LIBS:cb-imu-cache
+LIBS:BBC Hat-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date "28 mar 2015"
 Rev ""
@@ -248,4 +411,84 @@ Wire Wire Line
 	7600 3500 8000 3500
 Wire Wire Line
 	8500 2400 8850 2400
+$Sheet
+S 1400 6600 1000 850 
+U 58E64C83
+F0 "Sheet58E64C82" 60
+F1 "STM32.sch" 60
+$EndSheet
+$Comp
+L CONN_02X06 P?
+U 0 1 58E6A2F7
+P 3850 3950
+F 0 "P?" H 3850 4415 50  0000 C CNN
+F 1 "CONN_02X06" H 3850 4324 50  0000 C CNN
+F 2 "" H 3850 2750 50  0000 C CNN
+F 3 "" H 3850 2750 50  0000 C CNN
+	0    3850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X06 P?
+U 1 1 58E6A388
+P 5800 3950
+F 0 "P?" H 5800 4415 50  0000 C CNN
+F 1 "CONN_02X06" H 5800 4324 50  0000 C CNN
+F 2 "" H 5800 2750 50  0000 C CNN
+F 3 "" H 5800 2750 50  0000 C CNN
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X06 P?
+U 1 1 58E6A65E
+P 2700 3950
+F 0 "P?" H 2700 4415 50  0000 C CNN
+F 1 "CONN_02X06" H 2700 4324 50  0000 C CNN
+F 2 "" H 2700 2750 50  0000 C CNN
+F 3 "" H 2700 2750 50  0000 C CNN
+	1    2700 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 3800 0    60   Input ~ 0
+CAN1_H
+Text GLabel 2450 3900 0    60   Input ~ 0
+CAN1_L
+Text GLabel 3600 3800 0    60   Input ~ 0
+CAN2_H
+Text GLabel 3600 3900 0    60   Input ~ 0
+CAN2_L
+Text GLabel 2450 3700 0    60   Input ~ 0
+14_V
+Text GLabel 4250 5100 0    60   Input ~ 0
+CAN1_H
+Text GLabel 4250 5200 0    60   Input ~ 0
+CAN1_H
+Text GLabel 4250 5300 0    60   Input ~ 0
+CAN1_H
+Text GLabel 4250 5400 0    60   Input ~ 0
+CAN1_H
+$Comp
+L GND #PWR011
+U 0 1 58E6A994
+P 2950 3700
+F 0 "#PWR011" H 2950 3450 50  0001 C CNN
+F 1 "GND" V 2955 3572 50  0000 R CNN
+F 2 "" H 2950 3700 50  0000 C CNN
+F 3 "" H 2950 3700 50  0000 C CNN
+	0    2950 3700
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 3100 6600 1000 850 
+U 58E74B13
+F0 "Sensors" 60
+F1 "Sensors.sch" 60
+$EndSheet
+$Sheet
+S 4650 6600 1000 850 
+U 58E7A255
+F0 "InputConditioning" 60
+F1 "InputConditioning.sch" 60
+$EndSheet
 $EndSCHEMATC
