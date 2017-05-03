@@ -1,0 +1,181 @@
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=D?
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q?
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R?
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R?
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=U1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=D? NewDesignator=D4
+Change Component Designator: OldDesignator=D? NewDesignator=D5
+Change Component Designator: OldDesignator=D? NewDesignator=D6
+Change Component Designator: OldDesignator=D? NewDesignator=D7
+Change Component Designator: OldDesignator=D? NewDesignator=D8
+Change Component Designator: OldDesignator=D? NewDesignator=D9
+Change Component Designator: OldDesignator=D? NewDesignator=D10
+Change Component Designator: OldDesignator=D? NewDesignator=D11
+Change Component Designator: OldDesignator=D? NewDesignator=D12
+Change Component Designator: OldDesignator=D? NewDesignator=D13
+Change Component Designator: OldDesignator=D? NewDesignator=D14
+Change Component Designator: OldDesignator=D? NewDesignator=D15
+Change Component Designator: OldDesignator=D? NewDesignator=D16
+Change Component Designator: OldDesignator=D? NewDesignator=D17
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=Q? NewDesignator=Q3
+Change Component Designator: OldDesignator=Q? NewDesignator=Q4
+Change Component Designator: OldDesignator=Q? NewDesignator=Q5
+Change Component Designator: OldDesignator=Q? NewDesignator=Q6
+Change Component Designator: OldDesignator=Q? NewDesignator=Q7
+Change Component Designator: OldDesignator=Q? NewDesignator=Q8
+Change Component Designator: OldDesignator=Q? NewDesignator=Q9
+Change Component Designator: OldDesignator=Q? NewDesignator=Q10
+Change Component Designator: OldDesignator=Q? NewDesignator=Q11
+Change Component Designator: OldDesignator=R1 NewDesignator=R44
+Change Component Designator: OldDesignator=R1 NewDesignator=R45
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Change Component Designator: OldDesignator=R? NewDesignator=R14
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R18
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R22
+Change Component Designator: OldDesignator=R? NewDesignator=R23
+Change Component Designator: OldDesignator=R? NewDesignator=R24
+Change Component Designator: OldDesignator=R? NewDesignator=R25
+Change Component Designator: OldDesignator=R? NewDesignator=R26
+Change Component Designator: OldDesignator=R? NewDesignator=R27
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=R? NewDesignator=R30
+Change Component Designator: OldDesignator=R? NewDesignator=R31
+Change Component Designator: OldDesignator=R? NewDesignator=R32
+Change Component Designator: OldDesignator=R? NewDesignator=R33
+Change Component Designator: OldDesignator=R? NewDesignator=R34
+Change Component Designator: OldDesignator=R? NewDesignator=R35
+Change Component Designator: OldDesignator=R? NewDesignator=R36
+Change Component Designator: OldDesignator=R? NewDesignator=R37
+Change Component Designator: OldDesignator=R? NewDesignator=R38
+Change Component Designator: OldDesignator=R? NewDesignator=R39
+Change Component Designator: OldDesignator=R? NewDesignator=R40
+Change Component Designator: OldDesignator=R? NewDesignator=R41
+Change Component Designator: OldDesignator=R? NewDesignator=R42
+Change Component Designator: OldDesignator=R? NewDesignator=R43
+Change Component Designator: OldDesignator=STM32F107xx NewDesignator=STM1
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U1 NewDesignator=U3
+Change Net Name : Old Net Name=NetQ?_1 New Net Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-2
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R3-2
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R4-2
+Added Net: Name=NetQ4_1
+Added Pin To Net: NetName=NetQ5_1 Pin=Q5-1
+Added Pin To Net: NetName=NetQ5_1 Pin=R5-2
+Added Net: Name=NetQ5_1
+Added Pin To Net: NetName=NetQ6_1 Pin=Q6-1
+Added Pin To Net: NetName=NetQ6_1 Pin=R26-2
+Added Net: Name=NetQ6_1
+Added Pin To Net: NetName=NetQ7_1 Pin=Q7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R27-2
+Added Net: Name=NetQ7_1
+Added Pin To Net: NetName=NetQ8_1 Pin=Q8-1
+Added Pin To Net: NetName=NetQ8_1 Pin=R28-2
+Added Net: Name=NetQ8_1
+Added Pin To Net: NetName=NetQ9_1 Pin=Q9-1
+Added Pin To Net: NetName=NetQ9_1 Pin=R35-2
+Added Net: Name=NetQ9_1
+Added Pin To Net: NetName=NetQ10_1 Pin=Q10-1
+Added Pin To Net: NetName=NetQ10_1 Pin=R36-2
+Added Net: Name=NetQ10_1
+Added Pin To Net: NetName=NetQ11_1 Pin=Q11-1
+Added Pin To Net: NetName=NetQ11_1 Pin=R37-2
+Added Net: Name=NetQ11_1
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D2 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D3 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D4 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D5 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D6 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D7 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D8 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D9 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D10 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D11 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D12 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D13 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D15 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D16 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D17 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q1 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q2 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q3 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q4 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q5 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q6 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q7 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q9 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q10 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q11 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R1 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R2 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R3 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R4 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R5 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R6 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R7 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R8 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R9 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R10 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R11 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R12 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R13 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R14 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R15 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R16 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R17 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R18 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R19 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R20 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R21 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R22 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R23 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R24 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R25 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R26 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R27 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R28 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R29 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R30 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R31 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R32 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R33 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R35 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R36 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R37 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R38 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R39 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R40 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R41 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R42 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R43 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R44 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U2 CAN TRANCEIVER
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U3 CAN TRANCEIVER

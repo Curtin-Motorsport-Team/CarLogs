@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=ANV15 Pin=P2-2
+Removed Pin From Net: NetName=5V Pin=P2-3
+Removed Pin From Net: NetName=CAN1_H Pin=P2-5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Q6
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Q7
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Q9
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q12
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q13
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q14
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q15
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R6
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R8
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R9
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R15
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R16
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R18
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R25
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R26
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R32
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R34
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R37
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=R44
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R48
+Added Pin To Net: NetName=5V Pin=P2-2
+Added Pin To Net: NetName=CAN1_H Pin=P2-3
+Added Pin To Net: NetName=ANV15 Pin=P2-5
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q3 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q6 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q8 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q9 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R3 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R6 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R8 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R9 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R26 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R28 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R29 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R44 Low Drift

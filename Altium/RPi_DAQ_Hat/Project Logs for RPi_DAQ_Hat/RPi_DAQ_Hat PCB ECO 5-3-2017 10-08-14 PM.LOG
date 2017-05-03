@@ -1,0 +1,30 @@
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=R1(J1-0603)
+Added Component: Designator=U1(SOP8)
+Added Component: Designator=U1(SOP8)
+Added Pin To Net: NetName=CAN1_L Pin=R1-1
+Added Pin To Net: NetName=CAN2_L Pin=R1-1
+Added Pin To Net: NetName=CAN1_H Pin=R1-2
+Added Pin To Net: NetName=CAN2_H Pin=R1-2
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=3.3V Pin=U1-3
+Added Pin To Net: NetName=3.3V Pin=U1-3
+Added Pin To Net: NetName=CAN1_L Pin=U1-6
+Added Pin To Net: NetName=CAN2_L Pin=U1-6
+Added Pin To Net: NetName=CAN1_H Pin=U1-7
+Added Pin To Net: NetName=CAN2_H Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=CAN1_RX Pin=U1-4
+Added Net: Name=CAN1_RX
+Added Pin To Net: NetName=CAN1_TX Pin=U1-1
+Added Net: Name=CAN1_TX
+Added Pin To Net: NetName=CAN2_RX Pin=U1-4
+Added Net: Name=CAN2_RX
+Added Pin To Net: NetName=CAN2_TX Pin=U1-1
+Added Net: Name=CAN2_TX
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R1 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R1 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U1 CAN TRANCEIVER
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U1 CAN TRANCEIVER

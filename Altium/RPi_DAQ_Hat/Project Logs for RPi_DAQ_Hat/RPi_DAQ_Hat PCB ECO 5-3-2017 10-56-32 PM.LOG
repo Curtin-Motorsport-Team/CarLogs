@@ -1,0 +1,273 @@
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=D?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=Q?(SOT23_L)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=ADC0 Pin=D?-2
+Added Pin To Net: NetName=ADC1 Pin=D?-2
+Added Pin To Net: NetName=ADC2 Pin=D?-2
+Added Pin To Net: NetName=ADC3 Pin=D?-2
+Added Pin To Net: NetName=ADC4 Pin=D?-2
+Added Pin To Net: NetName=ADC5 Pin=D?-2
+Added Pin To Net: NetName=ADC6 Pin=D?-2
+Added Pin To Net: NetName=ADC7 Pin=D?-2
+Added Pin To Net: NetName=ADC8 Pin=D?-2
+Added Pin To Net: NetName=ADC9 Pin=D?-2
+Added Pin To Net: NetName=ADC10 Pin=D?-2
+Added Pin To Net: NetName=ADC11 Pin=D?-2
+Added Pin To Net: NetName=ADC12 Pin=D?-2
+Added Pin To Net: NetName=ADC13 Pin=D?-2
+Added Pin To Net: NetName=ADC14 Pin=D?-2
+Added Pin To Net: NetName=ADC15 Pin=D?-2
+Added Pin To Net: NetName=NetQ?_1 Pin=Q?-1
+Added Pin To Net: NetName=PULL10 Pin=Q?-2
+Added Pin To Net: NetName=PULL11 Pin=Q?-2
+Added Pin To Net: NetName=PULL12 Pin=Q?-2
+Added Pin To Net: NetName=PULL13 Pin=Q?-2
+Added Pin To Net: NetName=PULL14 Pin=Q?-2
+Added Pin To Net: NetName=PULL15 Pin=Q?-2
+Added Pin To Net: NetName=PULL_GPIO1 Pin=Q?-2
+Added Pin To Net: NetName=PULL_GPIO2 Pin=Q?-2
+Added Pin To Net: NetName=PULL_GPIO3 Pin=Q?-2
+Added Pin To Net: NetName=PULL_GPIO4 Pin=Q?-2
+Added Pin To Net: NetName=PULL_GPIO5 Pin=Q?-2
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=3.3V Pin=Q?-3
+Added Pin To Net: NetName=ADC0 Pin=R?-1
+Added Pin To Net: NetName=ADC1 Pin=R?-1
+Added Pin To Net: NetName=ADC2 Pin=R?-1
+Added Pin To Net: NetName=ADC3 Pin=R?-1
+Added Pin To Net: NetName=ADC4 Pin=R?-1
+Added Pin To Net: NetName=ADC5 Pin=R?-1
+Added Pin To Net: NetName=ADC6 Pin=R?-1
+Added Pin To Net: NetName=ADC7 Pin=R?-1
+Added Pin To Net: NetName=ADC8 Pin=R?-1
+Added Pin To Net: NetName=ADC9 Pin=R?-1
+Added Pin To Net: NetName=ADC10 Pin=R?-1
+Added Pin To Net: NetName=ADC11 Pin=R?-1
+Added Pin To Net: NetName=ADC12 Pin=R?-1
+Added Pin To Net: NetName=ADC13 Pin=R?-1
+Added Pin To Net: NetName=ADC14 Pin=R?-1
+Added Pin To Net: NetName=ADC15 Pin=R?-1
+Added Pin To Net: NetName=ANV10 Pin=R?-1
+Added Pin To Net: NetName=ANV11 Pin=R?-1
+Added Pin To Net: NetName=ANV12 Pin=R?-1
+Added Pin To Net: NetName=ANV13 Pin=R?-1
+Added Pin To Net: NetName=ANV14 Pin=R?-1
+Added Pin To Net: NetName=ANV15 Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GPIO1 Pin=R?-1
+Added Pin To Net: NetName=GPIO1 Pin=R?-1
+Added Pin To Net: NetName=GPIO2 Pin=R?-1
+Added Pin To Net: NetName=GPIO3 Pin=R?-1
+Added Pin To Net: NetName=GPIO5 Pin=R?-1
+Added Pin To Net: NetName=ADC0 Pin=R?-2
+Added Pin To Net: NetName=ADC1 Pin=R?-2
+Added Pin To Net: NetName=ADC2 Pin=R?-2
+Added Pin To Net: NetName=ADC3 Pin=R?-2
+Added Pin To Net: NetName=ADC4 Pin=R?-2
+Added Pin To Net: NetName=ADC5 Pin=R?-2
+Added Pin To Net: NetName=ADC6 Pin=R?-2
+Added Pin To Net: NetName=ADC7 Pin=R?-2
+Added Pin To Net: NetName=ADC8 Pin=R?-2
+Added Pin To Net: NetName=ADC9 Pin=R?-2
+Added Pin To Net: NetName=ADC10 Pin=R?-2
+Added Pin To Net: NetName=ADC11 Pin=R?-2
+Added Pin To Net: NetName=ADC12 Pin=R?-2
+Added Pin To Net: NetName=ADC13 Pin=R?-2
+Added Pin To Net: NetName=ADC14 Pin=R?-2
+Added Pin To Net: NetName=ADC15 Pin=R?-2
+Added Pin To Net: NetName=ANV0 Pin=R?-2
+Added Pin To Net: NetName=ANV1 Pin=R?-2
+Added Pin To Net: NetName=ANV2 Pin=R?-2
+Added Pin To Net: NetName=ANV3 Pin=R?-2
+Added Pin To Net: NetName=ANV4 Pin=R?-2
+Added Pin To Net: NetName=ANV5 Pin=R?-2
+Added Pin To Net: NetName=ANV6 Pin=R?-2
+Added Pin To Net: NetName=ANV7 Pin=R?-2
+Added Pin To Net: NetName=ANV8 Pin=R?-2
+Added Pin To Net: NetName=ANV9 Pin=R?-2
+Added Pin To Net: NetName=ANV10 Pin=R?-2
+Added Pin To Net: NetName=ANV11 Pin=R?-2
+Added Pin To Net: NetName=ANV12 Pin=R?-2
+Added Pin To Net: NetName=ANV13 Pin=R?-2
+Added Pin To Net: NetName=ANV14 Pin=R?-2
+Added Pin To Net: NetName=ANV15 Pin=R?-2
+Added Pin To Net: NetName=NetQ?_1 Pin=R?-2
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D? 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q? MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R1 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R? 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R? 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R? 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R? 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R? 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R? Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U1 CAN TRANCEIVER

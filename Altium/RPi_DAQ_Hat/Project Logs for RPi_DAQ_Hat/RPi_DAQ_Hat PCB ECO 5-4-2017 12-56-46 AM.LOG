@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ANV13 Pin=P2-6
+Removed Pin From Net: NetName=CAN1_L Pin=P2-7
+Change Component Comment : Designator=P1 Old Comment=Raspberry Pi 3  New Comment=Raspberry Pi 3
+Added Pin To Net: NetName=CAN1_L Pin=P2-6
+Added Pin To Net: NetName=ANV13 Pin=P2-7

@@ -1,0 +1,58 @@
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=D3
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=D5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=D6
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=D11
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=D12
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=D14
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=D17
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Q3
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Q5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q6
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q7
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q9
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=R1
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R3
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R3
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R6
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R8
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R9
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R13
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R16
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R17
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R20
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R22
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R22
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R24
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R24
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=R25
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R26
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R30
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R34
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R34
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R36
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R40
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=R41
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R45
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=U1
+Removed Member From Class: ClassName=RPi_DAQ_Hat_Connections Member=U2
+Change Component Footprint: Designator=D2 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D3 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D4 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D5 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D6 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D7 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D8 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D9 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D10 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D11 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D12 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D13 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D14 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D15 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D16 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Change Component Footprint: Designator=D17 Old Footprint=SOT23_L New Footprint=BZX84CxxxET1G
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component Q8 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R1 
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component U1 AP1509 - 5V

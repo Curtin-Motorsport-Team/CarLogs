@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=TIMER4 Pin=P3-2
+Removed Pin From Net: NetName=CAN2_L Pin=P3-5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=R1
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=U1
+Added Pin To Net: NetName=CAN2_L Pin=P3-2
+Added Pin To Net: NetName=TIMER4 Pin=P3-5
