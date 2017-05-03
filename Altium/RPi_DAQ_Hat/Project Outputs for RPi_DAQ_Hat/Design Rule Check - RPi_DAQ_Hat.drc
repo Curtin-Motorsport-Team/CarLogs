@@ -1,0 +1,82 @@
+Protel Design System Design Rule Check
+PCB File : Y:\Projects\DAQ_BBC_Hat\Altium\RPi_DAQ_Hat\RPi_DAQ_Hat.PcbDoc
+Date     : 5/4/2017
+Time     : 2:02:50 AM
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (2.75mm > 2.54mm) Pad P1-0(0mm,58mm) on Multi-Layer Actual Hole Size = 2.75mm
+   Violation between Hole Size Constraint: (2.75mm > 2.54mm) Pad P1-0(49mm,58mm) on Multi-Layer Actual Hole Size = 2.75mm
+   Violation between Hole Size Constraint: (2.75mm > 2.54mm) Pad P1-0(0mm,0mm) on Multi-Layer Actual Hole Size = 2.75mm
+   Violation between Hole Size Constraint: (2.75mm > 2.54mm) Pad P1-0(49mm,0mm) on Multi-Layer Actual Hole Size = 2.75mm
+Rule Violations :4
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.35mm) (Max=100mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.45mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q15-3(5.275mm,18.1mm) on Top Layer And Pad Q10-3(9.845mm,18.728mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad P1-17(1.27mm,25.18mm) on Multi-Layer And Pad Q14-3(5.402mm,27.117mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q1-3(9.586mm,35.501mm) on Top Layer And Pad Q4-3(10.983mm,40.835mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q6-3(35.488mm,54.45mm) on Top Layer And Pad Q9-3(41.849mm,55.939mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q5-3(33.342mm,29.022mm) on Top Layer And Pad Q13-3(41.969mm,30.038mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q11-3(26.094mm,31.557mm) on Top Layer And Pad Q5-3(33.342mm,29.022mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q9-3(41.849mm,55.939mm) on Top Layer And Pad U3-3(46.228mm,50.419mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q12-3(41.588mm,18.603mm) on Top Layer And Pad U2-3(49.911mm,17.018mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q2-3(45.786mm,40.191mm) on Top Layer And Pad U3-3(46.228mm,50.419mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q10-3(9.845mm,18.728mm) on Top Layer And Pad Q8-3(15.941mm,23.427mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q6-3(35.488mm,54.45mm) on Top Layer And Pad Q7-3(37.399mm,44.391mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q8-3(15.941mm,23.427mm) on Top Layer And Pad Q3-3(21.404mm,11.877mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad P1-1(1.27mm,4.86mm) on Multi-Layer And Pad Q15-3(5.275mm,18.1mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q15-3(5.275mm,18.1mm) on Top Layer And Pad Q14-3(5.402mm,27.117mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q12-3(41.588mm,18.603mm) on Top Layer And Pad Q13-3(41.969mm,30.038mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q14-3(5.402mm,27.117mm) on Top Layer And Pad Q1-3(9.586mm,35.501mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q13-3(41.969mm,30.038mm) on Top Layer And Pad Q2-3(45.786mm,40.191mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad Q8-3(15.941mm,23.427mm) on Top Layer And Pad Q11-3(26.094mm,31.557mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P1-2(-1.27mm,4.86mm) on Multi-Layer And Pad P1-4(-1.27mm,7.4mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C2-2(23.622mm,-1.226mm) on Top Layer And Pad L1-2(28.437mm,1.466mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad L1-2(28.437mm,1.466mm) on Top Layer And Pad U1-3(38.47mm,3.219mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2-2(29.545mm,20.017mm) on Top Layer And Pad P4-1(29.545mm,33.42mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C1-1(17.388mm,7.108mm) on Top Layer And Pad C2-2(23.622mm,-1.226mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P4-1(29.545mm,33.42mm) on Top Layer And Pad P3-1(29.545mm,48.724mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P1-4(-1.27mm,7.4mm) on Multi-Layer And Pad C1-1(17.388mm,7.108mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad L1-2(28.437mm,1.466mm) on Top Layer And Pad P2-2(29.545mm,20.017mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 14V Between Pad C4-2(7.658mm,-1.143mm) on Top Layer And Pad C3-1(10.657mm,7.108mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 14V Between Pad P2-1(29.545mm,18.117mm) on Top Layer And Pad U1-1(38.47mm,0.679mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 14V Between Pad C3-1(10.657mm,7.108mm) on Top Layer And Pad P2-1(29.545mm,18.117mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_2 Between Pad D1-2(22.468mm,2.239mm) on Top Layer And Pad L1-1(28.437mm,7.766mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_2 Between Pad L1-1(28.437mm,7.766mm) on Top Layer And Pad U1-2(38.47mm,1.949mm) on Top Layer 
+Rule Violations :31
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 35
+Time Elapsed        : 00:00:02
