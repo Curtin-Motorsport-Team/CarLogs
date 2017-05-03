@@ -1,0 +1,12 @@
+Added Component: Designator=H1(M3 BOLT HOLE)
+Added Component: Designator=H2(M3 BOLT HOLE)
+Added Component: Designator=H3(M3 BOLT HOLE)
+Added Component: Designator=H4(M3 BOLT HOLE)
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=GND Pin=H2-1
+Added Pin To Net: NetName=GND Pin=H3-1
+Added Pin To Net: NetName=GND Pin=H4-1
+Added Member To Class: ClassName=GPS_Adapter Member=Component H1 Mounting Hole
+Added Member To Class: ClassName=GPS_Adapter Member=Component H2 Mounting Hole
+Added Member To Class: ClassName=GPS_Adapter Member=Component H3 Mounting Hole
+Added Member To Class: ClassName=GPS_Adapter Member=Component H4 Mounting Hole

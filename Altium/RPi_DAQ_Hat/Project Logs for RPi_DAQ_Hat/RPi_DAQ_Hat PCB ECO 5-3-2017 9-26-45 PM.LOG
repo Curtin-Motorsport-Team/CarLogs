@@ -1,0 +1,13 @@
+Added Component: Designator=U5(SOP8)
+Added Pin To Net: NetName=V_BATT Pin=U5-1
+Added Pin To Net: NetName=NetD1_2 Pin=U5-2
+Added Pin To Net: NetName=VCC_3V3 Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-5
+Added Pin To Net: NetName=GND Pin=U5-6
+Added Pin To Net: NetName=GND Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? Raspberry Pi 3 
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component U5 AP1509

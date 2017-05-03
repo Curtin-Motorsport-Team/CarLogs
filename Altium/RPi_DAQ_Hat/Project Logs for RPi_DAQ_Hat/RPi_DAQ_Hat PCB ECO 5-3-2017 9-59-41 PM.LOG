@@ -1,0 +1,2 @@
+Added Component: Designator=STM32F107xx(LQFP100)
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component STM32F107xx

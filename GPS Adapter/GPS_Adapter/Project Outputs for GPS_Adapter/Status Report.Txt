@@ -1,0 +1,13 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [GPS_Adapter.PrjPcb]
+   Generated File[GPS_Adapter.GTL]
+   Generated File[GPS_Adapter.RUL]
+   Generated File[GPS_Adapter.EXTREP]
+   Generated File[GPS_Adapter.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 7:40:52 PM On 4/29/2017

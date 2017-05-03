@@ -321,7 +321,7 @@ L R R1
 U 1 1 58E67333
 P 1600 3000
 F 0 "R1" H 1670 3046 50  0000 L CNN
-F 1 "R" H 1670 2955 50  0000 L CNN
+F 1 "10k" H 1670 2955 50  0000 L CNN
 F 2 "" V 1530 3000 50  0000 C CNN
 F 3 "" H 1600 3000 50  0000 C CNN
 	1    1600 3000
@@ -638,4 +638,50 @@ Wire Wire Line
 	8650 5750 8650 5550
 Wire Wire Line
 	8650 5550 7650 5550
+Text GLabel 2250 4550 0    60   Input ~ 0
+PULL_10
+Text GLabel 2250 4650 0    60   Input ~ 0
+PULL_11
+Text GLabel 2250 4750 0    60   Input ~ 0
+PULL_12
+Text GLabel 2250 4850 0    60   Input ~ 0
+PULL_13
+Text GLabel 2250 4950 0    60   Input ~ 0
+PULL_14
+Text GLabel 2250 5050 0    60   Input ~ 0
+PULL_15
+Text GLabel 7650 4650 2    60   Input ~ 0
+SPI1_CLK
+Text GLabel 7650 4750 2    60   Input ~ 0
+SPI1_MISO
+Text GLabel 7650 4850 2    60   Input ~ 0
+SPI1_MOSI
+Text GLabel 2250 5650 0    60   Input ~ 0
+TIM1_CH3
+Text GLabel 7650 5350 2    60   Input ~ 0
+TIM2_CH3
+Text GLabel 7650 6850 2    60   Input ~ 0
+TIM3_CH3
+Text GLabel 7650 4950 2    60   Input ~ 0
+TIM4_CH1
+Text GLabel 2250 6050 0    60   Input ~ 0
+PULL_GPIO1
+Text GLabel 2250 6150 0    60   Input ~ 0
+PULL_GPIO2
+Text GLabel 2250 6250 0    60   Input ~ 0
+PULL_GPIO3
+Text GLabel 2250 6350 0    60   Input ~ 0
+PULL_GPIO4
+Text GLabel 2250 6450 0    60   Input ~ 0
+PULL_GPIO5
+Text GLabel 7650 7050 2    60   Input ~ 0
+PC10
+Text GLabel 7650 7150 2    60   Input ~ 0
+PC11
+Text GLabel 7650 7250 2    60   Input ~ 0
+PC12
+Text GLabel 7650 5250 2    60   Input ~ 0
+PB9
+Text GLabel 7650 5150 2    60   Input ~ 0
+PB8
 $EndSCHEMATC

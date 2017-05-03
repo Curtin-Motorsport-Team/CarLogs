@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=D1 Old Footprint=SMB New Footprint=Diode
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change Component Designator: OldDesignator=P? NewDesignator=P4
+Change Component Designator: OldDesignator=U5 NewDesignator=U1
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P2 DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P3 DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P4 DTM12

@@ -1,0 +1,7 @@
+Added Component: Designator=L1(Inductor)
+Added Pin To Net: NetName=NetD1_2 Pin=L1-1
+Added Pin To Net: NetName=VCC_3V3 Pin=L1-2
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component L1 47mH
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? Raspberry Pi 3 
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? DTM12

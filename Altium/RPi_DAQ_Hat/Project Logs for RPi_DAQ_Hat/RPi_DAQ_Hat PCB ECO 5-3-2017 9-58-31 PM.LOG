@@ -1,0 +1,22 @@
+Change Component Comment : Designator=U1 Old Comment=AP1509 New Comment=AP1509 - 5V
+Added Pin To Net: NetName=VCC_3V3 Pin=P1-2
+Added Pin To Net: NetName=VCC_3V3 Pin=P1-4
+Added Pin To Net: NetName=GND Pin=P1-6
+Added Pin To Net: NetName=GND Pin=P1-9
+Added Pin To Net: NetName=GND Pin=P1-14
+Added Pin To Net: NetName=GND Pin=P1-20
+Added Pin To Net: NetName=GND Pin=P1-25
+Added Pin To Net: NetName=GND Pin=P1-30
+Added Pin To Net: NetName=GND Pin=P1-34
+Added Pin To Net: NetName=GND Pin=P1-39
+Added Pin To Net: NetName=V_BATT Pin=P2-1
+Added Pin To Net: NetName=VCC_3V3 Pin=P2-3
+Added Pin To Net: NetName=VCC_3V3 Pin=P3-1
+Added Pin To Net: NetName=VCC_3V3 Pin=P4-1
+Change Net Name : Old Net Name=V_BATT New Net Name=14V
+Change Net Name : Old Net Name=VCC_3V3 New Net Name=5V
+Added Pin To Net: NetName=3.3V Pin=P1-1
+Added Pin To Net: NetName=3.3V Pin=P1-17
+Added Net: Name=3.3V
+Added Class: Name=RPi_DAQ_Hat_MCU
+Added Room: Name=RPi_DAQ_Hat_MCU
