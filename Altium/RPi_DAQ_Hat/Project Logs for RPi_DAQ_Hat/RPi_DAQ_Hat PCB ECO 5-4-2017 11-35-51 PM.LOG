@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=PULL_TIMER1 Pin=Q8-2
+Added Net: Name=PULL_TIMER1
+Added Pin To Net: NetName=PULL_TIMER2 Pin=Q3-2
+Added Net: Name=PULL_TIMER2
+Added Pin To Net: NetName=PULL_TIMER3 Pin=Q6-2
+Added Pin To Net: NetName=PULL_TIMER3 Pin=Q9-2
+Added Net: Name=PULL_TIMER3

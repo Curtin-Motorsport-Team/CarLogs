@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=PULL_TIMER3 Pin=Q9-2
+Added Pin To Net: NetName=PULL_TIMER4 Pin=Q9-2
+Added Net: Name=PULL_TIMER4
