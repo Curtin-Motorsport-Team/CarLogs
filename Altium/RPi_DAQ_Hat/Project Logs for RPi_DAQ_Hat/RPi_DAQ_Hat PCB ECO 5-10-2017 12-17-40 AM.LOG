@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=ADC5 Pin=STM1-30
+Removed Pin From Net: NetName=ADC8 Pin=STM1-35
+Added Pin To Net: NetName=ADC8 Pin=STM1-30
+Added Pin To Net: NetName=ADC5 Pin=STM1-35
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component STM1 STM32F107xx

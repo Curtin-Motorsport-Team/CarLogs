@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ADC3 Pin=STM1-26
+Removed Pin From Net: NetName=ADC7 Pin=STM1-32
+Added Pin To Net: NetName=ADC7 Pin=STM1-26
+Added Pin To Net: NetName=ADC3 Pin=STM1-32

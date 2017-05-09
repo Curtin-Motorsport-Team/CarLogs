@@ -1,0 +1,30 @@
+Added Component: Designator=STM1(LQFP100)
+Added Pin To Net: NetName=GND Pin=STM1-10
+Added Pin To Net: NetName=3.3V Pin=STM1-11
+Added Pin To Net: NetName=ADC10 Pin=STM1-15
+Added Pin To Net: NetName=ADC11 Pin=STM1-16
+Added Pin To Net: NetName=ADC12 Pin=STM1-17
+Added Pin To Net: NetName=ADC13 Pin=STM1-18
+Added Pin To Net: NetName=ADC0 Pin=STM1-23
+Added Pin To Net: NetName=ADC9 Pin=STM1-24
+Added Pin To Net: NetName=ADC2 Pin=STM1-25
+Added Pin To Net: NetName=ADC3 Pin=STM1-26
+Added Pin To Net: NetName=GND Pin=STM1-27
+Added Pin To Net: NetName=3.3V Pin=STM1-28
+Added Pin To Net: NetName=ADC4 Pin=STM1-29
+Added Pin To Net: NetName=ADC5 Pin=STM1-30
+Added Pin To Net: NetName=ADC6 Pin=STM1-31
+Added Pin To Net: NetName=ADC7 Pin=STM1-32
+Added Pin To Net: NetName=ADC14 Pin=STM1-33
+Added Pin To Net: NetName=ADC15 Pin=STM1-34
+Added Pin To Net: NetName=ADC8 Pin=STM1-35
+Added Pin To Net: NetName=ADC1 Pin=STM1-36
+Added Pin To Net: NetName=GND Pin=STM1-49
+Added Pin To Net: NetName=3.3V Pin=STM1-50
+Added Pin To Net: NetName=GND Pin=STM1-74
+Added Pin To Net: NetName=3.3V Pin=STM1-75
+Added Pin To Net: NetName=GPIO3 Pin=STM1-78
+Added Pin To Net: NetName=GPIO4 Pin=STM1-79
+Added Pin To Net: NetName=GND Pin=STM1-99
+Added Pin To Net: NetName=3.3V Pin=STM1-100
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component STM1 STM32F107xx
