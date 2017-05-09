@@ -1,0 +1,333 @@
+Added Component: Designator=C1(SMD Capacitor 220uF 16V)
+Added Component: Designator=C2(6-0805_N)
+Added Component: Designator=C3(SMD Capacitor 220uF 16V)
+Added Component: Designator=C4(6-0805_L)
+Added Component: Designator=D1(Diode)
+Added Component: Designator=D2(BZX84CxxxET1G)
+Added Component: Designator=D3(BZX84CxxxET1G)
+Added Component: Designator=D4(BZX84CxxxET1G)
+Added Component: Designator=D5(BZX84CxxxET1G)
+Added Component: Designator=D6(BZX84CxxxET1G)
+Added Component: Designator=D7(BZX84CxxxET1G)
+Added Component: Designator=D8(BZX84CxxxET1G)
+Added Component: Designator=D9(BZX84CxxxET1G)
+Added Component: Designator=D10(BZX84CxxxET1G)
+Added Component: Designator=D11(BZX84CxxxET1G)
+Added Component: Designator=D12(BZX84CxxxET1G)
+Added Component: Designator=D13(BZX84CxxxET1G)
+Added Component: Designator=D14(BZX84CxxxET1G)
+Added Component: Designator=D15(BZX84CxxxET1G)
+Added Component: Designator=D16(BZX84CxxxET1G)
+Added Component: Designator=D17(BZX84CxxxET1G)
+Added Component: Designator=L1(Inductor)
+Added Component: Designator=P2(SMD 12WIRE)
+Added Component: Designator=P4(SMD 12WIRE)
+Added Component: Designator=P?(SMD 4Wire)
+Added Component: Designator=Q1(DMP3160L)
+Added Component: Designator=Q2(DMP3160L)
+Added Component: Designator=Q4(DMP3160L)
+Added Component: Designator=Q5(DMP3160L)
+Added Component: Designator=Q7(DMP3160L)
+Added Component: Designator=R1(R0805)
+Added Component: Designator=R2(R0805)
+Added Component: Designator=R4(R0805)
+Added Component: Designator=R5(R0805)
+Added Component: Designator=R7(R0805)
+Added Component: Designator=R10(R0805)
+Added Component: Designator=R11(R0805)
+Added Component: Designator=R12(R0805)
+Added Component: Designator=R13(R0805)
+Added Component: Designator=R14(R0805)
+Added Component: Designator=R15(R0805)
+Added Component: Designator=R16(R0805)
+Added Component: Designator=R17(R0805)
+Added Component: Designator=R18(R0805)
+Added Component: Designator=R19(R0805)
+Added Component: Designator=R20(R0805)
+Added Component: Designator=R21(R0805)
+Added Component: Designator=R22(R0805)
+Added Component: Designator=R23(R0805)
+Added Component: Designator=R24(R0805)
+Added Component: Designator=R25(R0805)
+Added Component: Designator=R26(R0805)
+Added Component: Designator=R27(R0805)
+Added Component: Designator=R28(R0805)
+Added Component: Designator=R29(R0805)
+Added Component: Designator=R33(R0805)
+Added Component: Designator=R34(R0805)
+Added Component: Designator=R35(R0805)
+Added Component: Designator=R36(R0805)
+Added Component: Designator=R37(R0805)
+Added Component: Designator=R38(R0805)
+Added Component: Designator=R42(R0805)
+Added Component: Designator=R43(R0805)
+Added Component: Designator=R44(R0805)
+Added Component: Designator=R45(R0805)
+Added Component: Designator=R46(R0805)
+Added Component: Designator=R47(R0805)
+Added Component: Designator=R48(R0805)
+Added Component: Designator=R49(R0805)
+Added Component: Designator=STM1(LQFP100)
+Added Component: Designator=U1(SOP8)
+Added Component: Designator=U2(SOP8)
+Added Component: Designator=U3(SOP8)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C2-2
+Added Pin To Net: NetName=14V Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=14V Pin=C4-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=ADC2 Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=ADC5 Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=ADC8 Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D5-1
+Added Pin To Net: NetName=ADC1 Pin=D5-2
+Added Pin To Net: NetName=GND Pin=D6-1
+Added Pin To Net: NetName=ADC4 Pin=D6-2
+Added Pin To Net: NetName=GND Pin=D7-1
+Added Pin To Net: NetName=ADC7 Pin=D7-2
+Added Pin To Net: NetName=GND Pin=D8-1
+Added Pin To Net: NetName=ADC0 Pin=D8-2
+Added Pin To Net: NetName=GND Pin=D9-1
+Added Pin To Net: NetName=ADC3 Pin=D9-2
+Added Pin To Net: NetName=GND Pin=D10-1
+Added Pin To Net: NetName=ADC6 Pin=D10-2
+Added Pin To Net: NetName=GND Pin=D11-1
+Added Pin To Net: NetName=ADC9 Pin=D11-2
+Added Pin To Net: NetName=GND Pin=D12-1
+Added Pin To Net: NetName=ADC11 Pin=D12-2
+Added Pin To Net: NetName=GND Pin=D13-1
+Added Pin To Net: NetName=ADC13 Pin=D13-2
+Added Pin To Net: NetName=GND Pin=D14-1
+Added Pin To Net: NetName=ADC15 Pin=D14-2
+Added Pin To Net: NetName=GND Pin=D15-1
+Added Pin To Net: NetName=ADC14 Pin=D15-2
+Added Pin To Net: NetName=GND Pin=D16-1
+Added Pin To Net: NetName=ADC10 Pin=D16-2
+Added Pin To Net: NetName=GND Pin=D17-1
+Added Pin To Net: NetName=ADC12 Pin=D17-2
+Added Pin To Net: NetName=NetD1_2 Pin=L1-1
+Added Pin To Net: NetName=5V Pin=L1-2
+Added Pin To Net: NetName=5V Pin=P2-1
+Added Pin To Net: NetName=ANV0 Pin=P2-2
+Added Pin To Net: NetName=ANV5 Pin=P2-3
+Added Pin To Net: NetName=ANV1 Pin=P2-4
+Added Pin To Net: NetName=ANV15 Pin=P2-5
+Added Pin To Net: NetName=ANV14 Pin=P2-6
+Added Pin To Net: NetName=ANV13 Pin=P2-7
+Added Pin To Net: NetName=ANV12 Pin=P2-8
+Added Pin To Net: NetName=CAN2_L Pin=P2-9
+Added Pin To Net: NetName=ANV11 Pin=P2-10
+Added Pin To Net: NetName=CAN2_H Pin=P2-11
+Added Pin To Net: NetName=GND Pin=P2-12
+Added Pin To Net: NetName=5V Pin=P4-1
+Added Pin To Net: NetName=ANV2 Pin=P4-2
+Added Pin To Net: NetName=ANV6 Pin=P4-3
+Added Pin To Net: NetName=GPIO4 Pin=P4-4
+Added Pin To Net: NetName=ANV7 Pin=P4-5
+Added Pin To Net: NetName=GPIO3 Pin=P4-6
+Added Pin To Net: NetName=ANV8 Pin=P4-7
+Added Pin To Net: NetName=ANV3 Pin=P4-8
+Added Pin To Net: NetName=ANV9 Pin=P4-9
+Added Pin To Net: NetName=ANV4 Pin=P4-10
+Added Pin To Net: NetName=ANV10 Pin=P4-11
+Added Pin To Net: NetName=GND Pin=P4-12
+Added Pin To Net: NetName=14V Pin=P?-1
+Added Pin To Net: NetName=CAN1_L Pin=P?-2
+Added Pin To Net: NetName=CAN1_H Pin=P?-3
+Added Pin To Net: NetName=GND Pin=P?-4
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=PULL_GPIO1 Pin=Q1-2
+Added Pin To Net: NetName=3.3V Pin=Q1-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=PULL_GPIO4 Pin=Q2-2
+Added Pin To Net: NetName=3.3V Pin=Q2-3
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=PULL_GPIO2 Pin=Q4-2
+Added Pin To Net: NetName=3.3V Pin=Q4-3
+Added Pin To Net: NetName=NetQ5_1 Pin=Q5-1
+Added Pin To Net: NetName=PULL_GPIO5 Pin=Q5-2
+Added Pin To Net: NetName=3.3V Pin=Q5-3
+Added Pin To Net: NetName=NetQ7_1 Pin=Q7-1
+Added Pin To Net: NetName=PULL_GPIO3 Pin=Q7-2
+Added Pin To Net: NetName=3.3V Pin=Q7-3
+Added Pin To Net: NetName=GPIO1 Pin=R1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-2
+Added Pin To Net: NetName=GPIO4 Pin=R2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-2
+Added Pin To Net: NetName=GPIO2 Pin=R4-1
+Added Pin To Net: NetName=NetQ4_1 Pin=R4-2
+Added Pin To Net: NetName=GPIO5 Pin=R5-1
+Added Pin To Net: NetName=NetQ5_1 Pin=R5-2
+Added Pin To Net: NetName=GPIO3 Pin=R7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R7-2
+Added Pin To Net: NetName=ADC2 Pin=R10-1
+Added Pin To Net: NetName=ANV2 Pin=R10-2
+Added Pin To Net: NetName=ADC5 Pin=R11-1
+Added Pin To Net: NetName=ANV5 Pin=R11-2
+Added Pin To Net: NetName=ADC8 Pin=R12-1
+Added Pin To Net: NetName=ANV8 Pin=R12-2
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=ADC2 Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=ADC5 Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R15-1
+Added Pin To Net: NetName=ADC8 Pin=R15-2
+Added Pin To Net: NetName=ADC1 Pin=R16-1
+Added Pin To Net: NetName=ANV1 Pin=R16-2
+Added Pin To Net: NetName=ADC4 Pin=R17-1
+Added Pin To Net: NetName=ANV4 Pin=R17-2
+Added Pin To Net: NetName=ADC7 Pin=R18-1
+Added Pin To Net: NetName=ANV7 Pin=R18-2
+Added Pin To Net: NetName=GND Pin=R19-1
+Added Pin To Net: NetName=ADC1 Pin=R19-2
+Added Pin To Net: NetName=GND Pin=R20-1
+Added Pin To Net: NetName=ADC4 Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=ADC7 Pin=R21-2
+Added Pin To Net: NetName=ADC0 Pin=R22-1
+Added Pin To Net: NetName=ANV0 Pin=R22-2
+Added Pin To Net: NetName=ADC3 Pin=R23-1
+Added Pin To Net: NetName=ANV3 Pin=R23-2
+Added Pin To Net: NetName=ADC6 Pin=R24-1
+Added Pin To Net: NetName=ANV6 Pin=R24-2
+Added Pin To Net: NetName=ADC9 Pin=R25-1
+Added Pin To Net: NetName=ANV9 Pin=R25-2
+Added Pin To Net: NetName=GND Pin=R26-1
+Added Pin To Net: NetName=ADC0 Pin=R26-2
+Added Pin To Net: NetName=GND Pin=R27-1
+Added Pin To Net: NetName=ADC3 Pin=R27-2
+Added Pin To Net: NetName=GND Pin=R28-1
+Added Pin To Net: NetName=ADC6 Pin=R28-2
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=ADC9 Pin=R29-2
+Added Pin To Net: NetName=ADC11 Pin=R33-1
+Added Pin To Net: NetName=ANV11 Pin=R33-2
+Added Pin To Net: NetName=ADC13 Pin=R34-1
+Added Pin To Net: NetName=ANV13 Pin=R34-2
+Added Pin To Net: NetName=ADC15 Pin=R35-1
+Added Pin To Net: NetName=ANV15 Pin=R35-2
+Added Pin To Net: NetName=GND Pin=R36-1
+Added Pin To Net: NetName=ADC11 Pin=R36-2
+Added Pin To Net: NetName=GND Pin=R37-1
+Added Pin To Net: NetName=ADC13 Pin=R37-2
+Added Pin To Net: NetName=GND Pin=R38-1
+Added Pin To Net: NetName=ADC15 Pin=R38-2
+Added Pin To Net: NetName=ADC14 Pin=R42-1
+Added Pin To Net: NetName=ANV14 Pin=R42-2
+Added Pin To Net: NetName=ADC10 Pin=R43-1
+Added Pin To Net: NetName=ANV10 Pin=R43-2
+Added Pin To Net: NetName=ADC12 Pin=R44-1
+Added Pin To Net: NetName=ANV12 Pin=R44-2
+Added Pin To Net: NetName=GND Pin=R45-1
+Added Pin To Net: NetName=ADC14 Pin=R45-2
+Added Pin To Net: NetName=GND Pin=R46-1
+Added Pin To Net: NetName=ADC10 Pin=R46-2
+Added Pin To Net: NetName=GND Pin=R47-1
+Added Pin To Net: NetName=ADC12 Pin=R47-2
+Added Pin To Net: NetName=CAN1_L Pin=R48-1
+Added Pin To Net: NetName=CAN1_H Pin=R48-2
+Added Pin To Net: NetName=CAN2_L Pin=R49-1
+Added Pin To Net: NetName=CAN2_H Pin=R49-2
+Added Pin To Net: NetName=14V Pin=U1-1
+Added Pin To Net: NetName=NetD1_2 Pin=U1-2
+Added Pin To Net: NetName=5V Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=CAN1_TX Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=3.3V Pin=U2-3
+Added Pin To Net: NetName=CAN1_RX Pin=U2-4
+Added Pin To Net: NetName=CAN1_L Pin=U2-6
+Added Pin To Net: NetName=CAN1_H Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=CAN2_TX Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=3.3V Pin=U3-3
+Added Pin To Net: NetName=CAN2_RX Pin=U3-4
+Added Pin To Net: NetName=CAN2_L Pin=U3-6
+Added Pin To Net: NetName=CAN2_H Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component C1 220uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component C2 100nF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component C3 220uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component C4 100nF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component D1 D Schottky
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D2 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D3 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D4 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D5 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D6 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D7 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D8 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D9 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D10 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component D11 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D12 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D13 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D14 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D15 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D16 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component D17 3.6v
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component L1 47mH
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P2 DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P4 DTM12
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? Header 2X2H
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q1 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q2 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q4 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q5 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q7 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R1 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R2 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R4 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R5 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component R7 
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R10 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R11 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R12 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R13 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R14 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R15 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R16 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R17 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R18 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R19 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R20 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R21 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R22 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R23 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R24 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R25 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R26 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R27 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R28 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning2 Member=Component R29 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R33 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R34 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R35 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R36 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R37 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R38 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R42 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R43 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R44 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R45 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R46 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning3 Member=Component R47 Low Drift
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R48 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R49 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component STM1 STM32F107xx
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component U1 AP1509 - 5V
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U2 CAN TRANCEIVER
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U3 CAN TRANCEIVER

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=3.3V Pin=Q1-3
+Removed Pin From Net: NetName=3.3V Pin=Q4-3
+Removed Pin From Net: NetName=3.3V Pin=Q5-3
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q1
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q4
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Q5
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R1
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R4
+Removed Member From Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=R5
