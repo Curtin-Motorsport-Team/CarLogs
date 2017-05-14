@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : Y:\Projects\CarLogs\Altium\RPi_DAQ_Hat\RPi_DAQ_Hat.PcbDoc
 Date     : 5/15/2017
-Time     : 12:56:57 AM
+Time     : 1:44:25 AM
 
 Processing Rule : Clearance Constraint (Gap=0.7mm) (IsNamedPolygon('TOP_GND2')),(OnLayer('Top Layer'))
 Rule Violations :0
@@ -47,13 +47,7 @@ Processing Rule : Clearance Constraint (Gap=0.4mm) (Not IsNamedPolygon('TOP_GND2
 Rule Violations :3
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net CAN1_TX Between Pad STM1-71(13.523mm,44.101mm) on Bottom Layer And Pad U2-1(20.701mm,1.27mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net CAN1_RX Between Pad STM1-70(13.523mm,43.601mm) on Bottom Layer And Pad U2-4(16.891mm,1.27mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (10.167mm,47.625mm)(11.802mm,47.625mm) on Bottom Layer And Pad U3-8(10.414mm,47.051mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (29.151mm,31.827mm)(29.201mm,31.877mm) on Top Layer And Track (28.858mm,33.378mm)(30.42mm,31.817mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (8.576mm,51.026mm)(9.144mm,51.594mm) on Top Layer And Pad P?-2(10.287mm,50.927mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad STM1-19(31.623mm,37.101mm) on Bottom Layer And Pad STM1-10(31.623mm,41.601mm) on Bottom Layer 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
    Violation between Short-Circuit Constraint: Between Track (-1.27mm,4.064mm)(-0.064mm,2.857mm) on Top Layer And Pad P1-0(0mm,0mm) on Multi-Layer Location : [X = 185.965mm][Y = 41.497mm]
@@ -64,5 +58,5 @@ Processing Rule : Clearance Constraint (Gap=0.2mm) (OnLayer('Bottom Layer')),(Al
 Rule Violations :0
 
 
-Violations Detected : 15
+Violations Detected : 9
 Time Elapsed        : 00:00:02

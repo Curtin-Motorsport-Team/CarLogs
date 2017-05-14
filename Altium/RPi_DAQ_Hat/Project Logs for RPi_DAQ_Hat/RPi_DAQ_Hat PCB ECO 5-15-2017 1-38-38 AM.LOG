@@ -1,0 +1,17 @@
+Change Component Designator: OldDesignator=P? NewDesignator=P6
+Added Component: Designator=R6(R0805)
+Added Component: Designator=R8(R0805)
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=STM1-70
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=STM1-71
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=U2-4
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=U2-1
+Added Net: Name=NetR8_2
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R6 DNP
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R8 DNP
