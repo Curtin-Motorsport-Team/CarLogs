@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=STM1-91
+Added Pin To Net: NetName=GND Pin=STM1-93
+Added Pin To Net: NetName=GND Pin=U3-4
+Change Net Name : Old Net Name=GND New Net Name=CAN2_RX

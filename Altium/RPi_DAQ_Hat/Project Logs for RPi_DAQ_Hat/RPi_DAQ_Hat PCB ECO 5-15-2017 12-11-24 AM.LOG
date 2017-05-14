@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CAN2_RX Pin=STM1-91
+Removed Pin From Net: NetName=CAN2_RX Pin=U3-4
+Change Net Name : Old Net Name=CAN2_RX New Net Name=GND
+Added Pin To Net: NetName=CAN2_RX Pin=STM1-91
+Added Pin To Net: NetName=CAN2_RX Pin=U3-4
+Added Net: Name=CAN2_RX
