@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=CAN1_RX Pin=STM1-70
+Added Pin To Net: NetName=CAN1_TX Pin=STM1-71
+Added Pin To Net: NetName=CAN2_RX Pin=STM1-91
+Added Pin To Net: NetName=CAN2_TX Pin=STM1-92

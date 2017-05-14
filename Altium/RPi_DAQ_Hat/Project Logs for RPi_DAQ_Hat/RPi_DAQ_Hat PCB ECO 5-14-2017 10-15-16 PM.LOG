@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=SPI_NCS Pin=STM1-51
+Added Pin To Net: NetName=SPI_CLK Pin=STM1-52
+Added Pin To Net: NetName=SPI_MISO Pin=STM1-53
+Added Pin To Net: NetName=SPI_MOSI Pin=STM1-54
