@@ -1,0 +1,12 @@
+Change Component DesignItemId : Designator=P? Old DesignItemId=Header 5 New DesignItemId=Header 4
+Change Component Footprint: Designator=P? Old Footprint=HDR1X5 New Footprint=HDR1X4
+Change Component Comment : Designator=P? Old Comment=Header 5 New Comment=ST-Link
+Added Pin To Net: NetName=GND Pin=P?-2
+Added Pin To Net: NetName=RESET Pin=P?-4
+Added Pin To Net: NetName=SWCLK Pin=P?-1
+Added Pin To Net: NetName=SWCLK Pin=STM1-76
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=P?-3
+Added Pin To Net: NetName=SWDIO Pin=STM1-72
+Added Net: Name=SWDIO
+Added Member To Class: ClassName=RPi_DAQ_Hat_InputConditioning1 Member=Component Q2 MOSFET-P

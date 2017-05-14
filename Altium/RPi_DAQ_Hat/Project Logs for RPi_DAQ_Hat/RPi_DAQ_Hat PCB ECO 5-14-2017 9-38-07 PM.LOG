@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=USART1_RX Pin=P1-8
+Added Pin To Net: NetName=USART1_RX Pin=STM1-69
+Added Net: Name=USART1_RX
+Added Pin To Net: NetName=USART1_TX Pin=P1-10
+Added Pin To Net: NetName=USART1_TX Pin=STM1-68
+Added Net: Name=USART1_TX

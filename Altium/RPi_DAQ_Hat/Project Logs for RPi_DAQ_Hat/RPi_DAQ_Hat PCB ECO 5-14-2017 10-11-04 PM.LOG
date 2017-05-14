@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=SPI_CLK Pin=P1-23
+Added Net: Name=SPI_CLK
+Added Pin To Net: NetName=SPI_MISO Pin=P1-21
+Added Net: Name=SPI_MISO
+Added Pin To Net: NetName=SPI_MOSI Pin=P1-19
+Added Net: Name=SPI_MOSI
+Added Pin To Net: NetName=SPI_NCS Pin=P1-24
+Added Net: Name=SPI_NCS

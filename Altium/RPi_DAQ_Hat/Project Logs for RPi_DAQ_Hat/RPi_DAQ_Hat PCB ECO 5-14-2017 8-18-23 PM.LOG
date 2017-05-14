@@ -1,0 +1,63 @@
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Added Component: Designator=C5(R0805)
+Added Component: Designator=C6(R0805)
+Added Component: Designator=C7(R0805)
+Added Component: Designator=C8(R0805)
+Added Component: Designator=C9(R0805)
+Added Component: Designator=C10(R0805)
+Added Component: Designator=C11(R0805)
+Added Component: Designator=C12(R0805)
+Added Component: Designator=P3(SMD 4Wire)
+Added Component: Designator=P?(HDR1X5)
+Added Component: Designator=Q2(DMP3160L)
+Added Component: Designator=R1(R0805)
+Added Component: Designator=R3(R0805)
+Added Component: Designator=R4(R0805)
+Added Component: Designator=R5(R0805)
+Added Pin To Net: NetName=3.3V Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=3.3V Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=3.3V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=3.3V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=3.3V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=3.3V Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=3.3V Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=3.3V Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=3.3V Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=3.3V Pin=Q2-3
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=3.3V Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=BOOT_FET Pin=Q2-2
+Added Net: Name=BOOT_FET
+Added Pin To Net: NetName=IMU_SCL Pin=P3-3
+Added Net: Name=IMU_SCL
+Added Pin To Net: NetName=IMU_SDA Pin=P3-2
+Added Net: Name=IMU_SDA
+Added Pin To Net: NetName=RESET Pin=R4-1
+Added Pin To Net: NetName=RESET Pin=R5-2
+Added Net: Name=RESET
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C5 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C6 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C7 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C8 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C9 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C10 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C11 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C12 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P3 Header 4
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? Header 5
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component Q2 MOSFET-P
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R1 10k
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R3 DNP
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R4 10k
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R5 DNP

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=3.3V Pin=Q2-3
+Removed Pin From Net: NetName=3.3V Pin=R3-2
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=Q2
+Added Pin To Net: NetName=BOOT Pin=R1-2
+Added Pin To Net: NetName=BOOT Pin=R3-1
+Added Pin To Net: NetName=BOOT Pin=STM1-94
+Added Net: Name=BOOT

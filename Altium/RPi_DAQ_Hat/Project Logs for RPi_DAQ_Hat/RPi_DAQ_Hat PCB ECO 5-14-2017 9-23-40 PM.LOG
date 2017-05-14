@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=IMU_SCL Pin=STM1-47
+Added Pin To Net: NetName=IMU_SDA Pin=STM1-48

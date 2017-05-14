@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=IMU_SDA Pin=P3-2
+Removed Pin From Net: NetName=IMU_SCL Pin=P3-3
+Added Pin To Net: NetName=IMU_SCL Pin=P3-2
+Added Pin To Net: NetName=IMU_SDA Pin=P3-3
