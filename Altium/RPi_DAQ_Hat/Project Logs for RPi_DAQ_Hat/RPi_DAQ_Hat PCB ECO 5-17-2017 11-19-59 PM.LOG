@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=SWCLK Pin=P6-1
+Removed Pin From Net: NetName=GND Pin=P6-2
+Removed Pin From Net: NetName=SWDIO Pin=P6-3
+Removed Pin From Net: NetName=RESET Pin=P6-4
+Removed Pin From Net: NetName=GND Pin=STM1-89
+Change Component DesignItemId : Designator=P6 Old DesignItemId=Header 4 New DesignItemId=Header 5
+Change Component Footprint: Designator=P6 Old Footprint=SMD 4Wire New Footprint=HDR1X5
+Change Component Designator: OldDesignator=P6 NewDesignator=P?
+Added Pin To Net: NetName=SWCLK Pin=P?-2
+Added Pin To Net: NetName=GND Pin=P?-3
+Added Pin To Net: NetName=SWDIO Pin=P?-4
+Added Pin To Net: NetName=RESET Pin=P?-5
+Added Pin To Net: NetName=SWO Pin=P?-1
+Added Pin To Net: NetName=SWO Pin=STM1-89
+Added Net: Name=SWO
