@@ -1,0 +1,6 @@
+Added Component: Designator=P6(SMD 4Wire)
+Added Pin To Net: NetName=14V Pin=P6-1
+Added Pin To Net: NetName=CAN2_L Pin=P6-2
+Added Pin To Net: NetName=CAN2_H Pin=P6-3
+Added Pin To Net: NetName=GND Pin=P6-4
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P6 Header 2X2H

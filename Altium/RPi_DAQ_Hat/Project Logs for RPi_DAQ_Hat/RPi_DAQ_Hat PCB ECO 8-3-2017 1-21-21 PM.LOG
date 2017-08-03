@@ -1,0 +1,126 @@
+Added Component: Designator=C5(R0805)
+Added Component: Designator=C6(R0805)
+Added Component: Designator=C7(R0805)
+Added Component: Designator=C8(R0805)
+Added Component: Designator=C9(R0805)
+Added Component: Designator=C10(R0805)
+Added Component: Designator=P5(SMD 4Wire)
+Added Component: Designator=P6(SMD 4Wire)
+Added Component: Designator=P?(SMD 5Wire)
+Added Component: Designator=R1(R0805)
+Added Component: Designator=R3(R0805)
+Added Component: Designator=R4(R0805)
+Added Component: Designator=R5(R0805)
+Added Component: Designator=R6(R0805)
+Added Component: Designator=R8(R0805)
+Added Component: Designator=R48(R0805)
+Added Component: Designator=R49(R0805)
+Added Component: Designator=STM1(LQFP100)
+Added Component: Designator=U2(SOP8)
+Added Component: Designator=U3(SOP8)
+Added Pin To Net: NetName=3.3V Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=3.3V Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=3.3V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=3.3V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=3.3V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=3.3V Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=14V Pin=P5-1
+Added Pin To Net: NetName=CAN1_L Pin=P5-2
+Added Pin To Net: NetName=CAN1_H Pin=P5-3
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Pin To Net: NetName=14V Pin=P6-1
+Added Pin To Net: NetName=CAN2_L Pin=P6-2
+Added Pin To Net: NetName=CAN2_H Pin=P6-3
+Added Pin To Net: NetName=GND Pin=P6-4
+Added Pin To Net: NetName=SWO Pin=P?-1
+Added Pin To Net: NetName=SWCLK Pin=P?-2
+Added Pin To Net: NetName=GND Pin=P?-3
+Added Pin To Net: NetName=SWDIO Pin=P?-4
+Added Pin To Net: NetName=RESET Pin=P?-5
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=BOOT Pin=R1-2
+Added Pin To Net: NetName=BOOT Pin=R3-1
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=RESET Pin=R4-1
+Added Pin To Net: NetName=3.3V Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=RESET Pin=R5-2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=CAN1_L Pin=R48-1
+Added Pin To Net: NetName=CAN1_H Pin=R48-2
+Added Pin To Net: NetName=CAN2_L Pin=R49-1
+Added Pin To Net: NetName=CAN2_H Pin=R49-2
+Added Pin To Net: NetName=GND Pin=STM1-10
+Added Pin To Net: NetName=3.3V Pin=STM1-11
+Added Pin To Net: NetName=RESET Pin=STM1-14
+Added Pin To Net: NetName=GND Pin=STM1-19
+Added Pin To Net: NetName=GND Pin=STM1-20
+Added Pin To Net: NetName=3.3V Pin=STM1-21
+Added Pin To Net: NetName=3.3V Pin=STM1-22
+Added Pin To Net: NetName=GND Pin=STM1-27
+Added Pin To Net: NetName=3.3V Pin=STM1-28
+Added Pin To Net: NetName=IMU_SCL Pin=STM1-47
+Added Pin To Net: NetName=IMU_SDA Pin=STM1-48
+Added Pin To Net: NetName=GND Pin=STM1-49
+Added Pin To Net: NetName=3.3V Pin=STM1-50
+Added Pin To Net: NetName=SPI_NCS Pin=STM1-51
+Added Pin To Net: NetName=SPI_CLK Pin=STM1-52
+Added Pin To Net: NetName=SPI_MISO Pin=STM1-53
+Added Pin To Net: NetName=SPI_MOSI Pin=STM1-54
+Added Pin To Net: NetName=USART1_TX Pin=STM1-68
+Added Pin To Net: NetName=USART1_RX Pin=STM1-69
+Added Pin To Net: NetName=NetR6_1 Pin=STM1-70
+Added Pin To Net: NetName=NetR6_2 Pin=STM1-71
+Added Pin To Net: NetName=SWDIO Pin=STM1-72
+Added Pin To Net: NetName=GND Pin=STM1-74
+Added Pin To Net: NetName=3.3V Pin=STM1-75
+Added Pin To Net: NetName=SWCLK Pin=STM1-76
+Added Pin To Net: NetName=SWO Pin=STM1-89
+Added Pin To Net: NetName=CAN2_RX Pin=STM1-91
+Added Pin To Net: NetName=CAN2_TX Pin=STM1-92
+Added Pin To Net: NetName=BOOT Pin=STM1-94
+Added Pin To Net: NetName=GND Pin=STM1-99
+Added Pin To Net: NetName=3.3V Pin=STM1-100
+Added Pin To Net: NetName=NetR8_2 Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=3.3V Pin=U2-3
+Added Pin To Net: NetName=NetR8_1 Pin=U2-4
+Added Pin To Net: NetName=CAN1_L Pin=U2-6
+Added Pin To Net: NetName=CAN1_H Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=CAN2_TX Pin=U3-1
+Added Pin To Net: NetName=GND Pin=U3-2
+Added Pin To Net: NetName=3.3V Pin=U3-3
+Added Pin To Net: NetName=CAN2_RX Pin=U3-4
+Added Pin To Net: NetName=CAN2_L Pin=U3-6
+Added Pin To Net: NetName=CAN2_H Pin=U3-7
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C5 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C6 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C7 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C8 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C9 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component C10 0.1uF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P5 Header 2X2H
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P6 Header 2X2H
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P? ST-Link
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R1 10k
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R3 DNP
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R4 10k
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R5 DNP
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R6 DNP
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R8 DNP
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R48 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component R49 Res3
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component STM1 STM32F107xx
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U2 CAN TRANCEIVER
+Added Member To Class: ClassName=RPi_DAQ_Hat_MCU Member=Component U3 CAN TRANCEIVER

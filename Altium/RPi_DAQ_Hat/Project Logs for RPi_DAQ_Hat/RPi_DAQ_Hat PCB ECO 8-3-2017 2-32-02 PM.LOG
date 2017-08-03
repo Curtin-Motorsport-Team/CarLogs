@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=IMU_SCL Pin=STM1-47
+Removed Pin From Net: NetName=IMU_SDA Pin=STM1-48
+Removed Pin From Net: NetName=SPI_NCS Pin=STM1-51
+Removed Pin From Net: NetName=SPI_CLK Pin=STM1-52
+Removed Pin From Net: NetName=SPI_MISO Pin=STM1-53
+Removed Pin From Net: NetName=SPI_MOSI Pin=STM1-54
+Removed Pin From Net: NetName=CAN2_RX Pin=STM1-91
+Removed Pin From Net: NetName=CAN2_TX Pin=STM1-92
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=R6
+Removed Member From Class: ClassName=RPi_DAQ_Hat_MCU Member=R8
+Added Component: Designator=C4(6-0805_L)
+Added Component: Designator=P3(SMD 4Wire)
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=14V Pin=C4-2
+Added Pin To Net: NetName=3.3V Pin=P3-1
+Added Pin To Net: NetName=IMU_SDA Pin=P3-2
+Added Pin To Net: NetName=IMU_SCL Pin=P3-3
+Added Pin To Net: NetName=GND Pin=P3-4
+Added Pin To Net: NetName=SPI_NCS Pin=STM1-29
+Added Pin To Net: NetName=SPI_CLK Pin=STM1-30
+Added Pin To Net: NetName=SPI_MISO Pin=STM1-31
+Added Pin To Net: NetName=SPI_MOSI Pin=STM1-32
+Added Pin To Net: NetName=CAN2_RX Pin=STM1-51
+Added Pin To Net: NetName=CAN2_TX Pin=STM1-52
+Added Pin To Net: NetName=CAN1_RX Pin=STM1-70
+Added Pin To Net: NetName=CAN1_RX Pin=U2-4
+Added Net: Name=CAN1_RX
+Added Pin To Net: NetName=CAN1_TX Pin=STM1-71
+Added Pin To Net: NetName=CAN1_TX Pin=U2-1
+Added Net: Name=CAN1_TX
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component C4 100nF
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P3 Header 4
