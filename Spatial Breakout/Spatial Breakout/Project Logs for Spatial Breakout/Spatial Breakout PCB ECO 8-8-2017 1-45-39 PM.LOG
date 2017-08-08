@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR1_1
+Added Member To Class: ClassName=Spatial Breakout Member=Component C1 
+Added Member To Class: ClassName=Spatial Breakout Member=Component C2 
+Added Member To Class: ClassName=Spatial Breakout Member=Component C3 
+Added Member To Class: ClassName=Spatial Breakout Member=Component C4 
+Added Member To Class: ClassName=Spatial Breakout Member=Component C5 Cap
+Added Member To Class: ClassName=Spatial Breakout Member=Component R1 Res1
+Added Member To Class: ClassName=Spatial Breakout Member=Component R3 10k
+Added Member To Class: ClassName=Spatial Breakout Member=Component U2 Dash

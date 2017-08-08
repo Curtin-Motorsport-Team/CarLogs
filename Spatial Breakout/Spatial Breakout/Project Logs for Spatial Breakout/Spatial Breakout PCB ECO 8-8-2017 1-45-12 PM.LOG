@@ -1,0 +1,66 @@
+Added Component: Designator=C?(R0805)
+Added Component: Designator=C?(R0805)
+Added Component: Designator=C?(R0805)
+Added Component: Designator=C?(R0805)
+Added Component: Designator=C?(R0805)
+Added Component: Designator=C?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=R?(R0805)
+Added Component: Designator=U?(SOP8)
+Added Component: Designator=U?(STM32F072CBU6 - duplicate)
+Added Pin To Net: NetName=3.3V Pin=C?-1
+Added Pin To Net: NetName=3.3V Pin=C?-1
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=C?-2
+Added Pin To Net: NetName=3.3V Pin=R?-2
+Added Pin To Net: NetName=3.3V Pin=U?-1
+Added Pin To Net: NetName=3.3V Pin=U?-3
+Added Pin To Net: NetName=3.3V Pin=U?-9
+Added Pin To Net: NetName=3.3V Pin=U?-24
+Added Pin To Net: NetName=3.3V Pin=U?-36
+Added Pin To Net: NetName=3.3V Pin=U?-48
+Added Net: Name=3.3V
+Added Pin To Net: NetName=BOOT Pin=R?-1
+Added Pin To Net: NetName=BOOT Pin=R?-2
+Added Pin To Net: NetName=BOOT Pin=U?-44
+Added Net: Name=BOOT
+Added Pin To Net: NetName=CANH Pin=U?-7
+Added Net: Name=CANH
+Added Pin To Net: NetName=CANL Pin=U?-6
+Added Net: Name=CANL
+Added Pin To Net: NetName=CANRX Pin=U?-4
+Added Pin To Net: NetName=CANRX Pin=U?-32
+Added Net: Name=CANRX
+Added Pin To Net: NetName=CANTX Pin=U?-1
+Added Pin To Net: NetName=CANTX Pin=U?-33
+Added Net: Name=CANTX
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-8
+Added Pin To Net: NetName=GND Pin=U?-23
+Added Pin To Net: NetName=GND Pin=U?-35
+Added Pin To Net: NetName=GND Pin=U?-47
+Added Net: Name=GND
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U?-8
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NRST Pin=U?-7
+Added Net: Name=NRST
+Added Pin To Net: NetName=SWCLK Pin=U?-37
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=U?-34
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=SWO Pin=U?-38
+Added Net: Name=SWO
+Added Class: Name=Spatial Breakout
+Added Room: Name=Spatial Breakout

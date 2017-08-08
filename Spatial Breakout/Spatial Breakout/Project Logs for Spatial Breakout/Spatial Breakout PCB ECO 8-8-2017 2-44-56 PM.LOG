@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=R3 NewDesignator=R37
+Added Member To Class: ClassName=Spatial Breakout Member=Component R37 10k

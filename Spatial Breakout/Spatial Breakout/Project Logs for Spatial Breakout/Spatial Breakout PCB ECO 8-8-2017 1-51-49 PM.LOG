@@ -1,0 +1,8 @@
+Added Component: Designator=P2(HDR1X6)
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=3.3V Pin=P2-3
+Added Pin To Net: NetName=UART_RX Pin=P2-4
+Added Net: Name=UART_RX
+Added Pin To Net: NetName=UART_TX Pin=P2-5
+Added Net: Name=UART_TX
+Added Member To Class: ClassName=Spatial Breakout Member=Component P2 Header 6

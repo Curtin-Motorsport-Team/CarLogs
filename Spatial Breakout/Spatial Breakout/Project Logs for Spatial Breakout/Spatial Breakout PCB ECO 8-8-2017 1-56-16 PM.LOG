@@ -1,0 +1,7 @@
+Added Component: Designator=P1(SMD 5Wire)
+Added Pin To Net: NetName=SWO Pin=P1-1
+Added Pin To Net: NetName=SWCLK Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=SWDIO Pin=P1-4
+Added Pin To Net: NetName=NRST Pin=P1-5
+Added Member To Class: ClassName=Spatial Breakout Member=Component P1 ST-Link

@@ -1,0 +1,16 @@
+Added Component: Designator=P3(HDR1X6)
+Added Component: Designator=P5(SMD 4Wire)
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=3.3V Pin=P3-3
+Added Pin To Net: NetName=UART_RX Pin=P3-4
+Added Pin To Net: NetName=UART_TX Pin=P3-5
+Added Pin To Net: NetName=GND Pin=P5-4
+Added Pin To Net: NetName=14V Pin=P5-1
+Added Net: Name=14V
+Added Pin To Net: NetName=CAN1_H Pin=P5-3
+Added Net: Name=CAN1_H
+Added Pin To Net: NetName=CAN1_L Pin=P5-2
+Added Net: Name=CAN1_L
+Added Member To Class: ClassName=Spatial Breakout Member=Component P3 Header 6
+Added Member To Class: ClassName=Spatial Breakout Member=Component P5 Header 2X2H
+Added Room: Name=Spatial Breakout
