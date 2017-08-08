@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=3.3V Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Member From Class: ClassName=Spatial Breakout Member=C5

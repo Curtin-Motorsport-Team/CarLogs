@@ -1,0 +1,5 @@
+Change Component Comment : Designator=P5 Old Comment=Header 2X2H New Comment=CAN
+Added Component: Designator=C2(R0805)
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=3.3V Pin=C2-2
+Added Member To Class: ClassName=Spatial Breakout Member=Component C2 
