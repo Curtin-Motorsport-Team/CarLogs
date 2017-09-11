@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+org.eclipse.cdt.codan.ui.annotation.error.GoToNextNavigationTarget=false
+org.eclipse.cdt.codan.ui.annotation.error.overview=false
+org.eclipse.cdt.codan.ui.annotation.error.ruler=false
+org.eclipse.cdt.codan.ui.annotation.error.text=false
+org.eclipse.cdt.codan.ui.annotation.warning.GoToNextNavigationTarget=false
+org.eclipse.cdt.codan.ui.annotation.warning.overview=false
+org.eclipse.cdt.codan.ui.annotation.warning.ruler=false
+org.eclipse.cdt.codan.ui.annotation.warning.text=false
+overviewRuler_migration=migrated_3.1

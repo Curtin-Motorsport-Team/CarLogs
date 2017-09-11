@@ -1,0 +1,62 @@
+01:48:11 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+01:48:22 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+01:48:33 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+01:49:59 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+01:51:13 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:130:20: warning: unused variable 'RxMessage' [-Wunused-variable]
+    CanRxMsgTypeDef RxMessage;
+                    ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9756	     12	   1884	  11652	   2d84	Carlogs.elf
+ 
+01:51:20 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+01:53:35 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9760	     12	   1884	  11656	   2d88	Carlogs.elf
+ 
+01:53:41 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,6 @@
+Added Component: Designator=P7(SMD 4Wire)
+Added Pin To Net: NetName=3.3V Pin=P7-1
+Added Pin To Net: NetName=USART1_RX Pin=P7-2
+Added Pin To Net: NetName=USART1_TX Pin=P7-3
+Added Pin To Net: NetName=GND Pin=P7-4
+Added Member To Class: ClassName=RPi_DAQ_Hat_Connections Member=Component P7 Header 2X2H

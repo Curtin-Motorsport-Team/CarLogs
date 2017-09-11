@@ -1,0 +1,69 @@
+Configuration	Carlogs
+STM32CubeMX 	4.22.0
+Date	09/12/2017
+MCU	STM32F107VCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+CAN1	Master	CAN1_RX	PA11
+CAN1	Master	CAN1_TX	PA12
+CAN2	Slave	CAN2_RX	PB12
+CAN2	Slave	CAN2_TX	PB13
+RTC	Activate Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	Activate Calendar	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+SPI1	Full-Duplex Slave	SPI1_MISO	PA6
+SPI1	Full-Duplex Slave	SPI1_MOSI	PA7
+SPI1	Full-Duplex Slave	SPI1_SCK	PA5
+SPI1	Hardware NSS Input Signal	SPI1_NSS	PA4
+SYS	Trace Asynchronous Sw	SYS_JTMS-SWDIO	PA13
+SYS	Trace Asynchronous Sw	SYS_JTCK-SWCLK	PA14
+SYS	Trace Asynchronous Sw	SYS_TRACESWO	PB3
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+29	PA4	SPI1_NSS	
+30	PA5	SPI1_SCK	
+31	PA6	SPI1_MISO	
+32	PA7	SPI1_MOSI	
+51	PB12	CAN2_RX	
+52	PB13	CAN2_TX	
+68	PA9	USART1_TX	
+69	PA10	USART1_RX	
+70	PA11	CAN1_RX	
+71	PA12	CAN1_TX	
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+89	PB3	SYS_TRACESWO	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Carlogs
+Project Folder : /Users/Emmet/Projects/CarLogs/Firmware/Carlogs
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F1 V1.6.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
