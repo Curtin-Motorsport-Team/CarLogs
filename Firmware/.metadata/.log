@@ -1036,3 +1036,12 @@ java.lang.Exception: Remote communication error.  Target disconnected.: Broken p
 !MESSAGE Invalid breakpoint parameter(s)
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-09-19 19:20:20.559
 !MESSAGE Invalid breakpoint parameter(s)
+
+!ENTRY fr.ac6.mcu.externaltools 4 0 2017-09-19 19:58:19.404
+!MESSAGE getFlasherLocation() usage is deprecated
+
+!ENTRY fr.ac6.mcu.externaltools 4 0 2017-09-19 19:58:19.629
+!MESSAGE getFlasherLocation() usage is deprecated
+
+!ENTRY fr.ac6.mcu.externaltools 4 0 2017-09-19 19:58:20.131
+!MESSAGE getFlasherLocation() usage is deprecated
