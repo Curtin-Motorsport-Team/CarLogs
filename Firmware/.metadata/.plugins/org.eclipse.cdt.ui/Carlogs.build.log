@@ -1,6 +1,6 @@
-01:53:41 **** Incremental Build of configuration Debug for project Carlogs ****
+19:20:13 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 make: Nothing to be done for `all'.
 
-01:53:41 Build Finished (took 77ms)
+19:20:14 Build Finished (took 859ms)
 

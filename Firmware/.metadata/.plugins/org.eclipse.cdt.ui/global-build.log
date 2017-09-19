@@ -1,26 +1,222 @@
-01:48:11 **** Incremental Build of configuration Debug for project Carlogs ****
+11:41:16 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9476	     12	   1884	  11372	   2c6c	Carlogs.elf
+ 
+11:41:23 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 make: Nothing to be done for `all'.
-01:48:22 **** Incremental Build of configuration Debug for project Carlogs ****
+11:41:46 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 make: Nothing to be done for `all'.
-01:48:33 **** Incremental Build of configuration Debug for project Carlogs ****
-make all 
-make: Nothing to be done for `all'.
-01:49:59 **** Incremental Build of configuration Debug for project Carlogs ****
-make all 
-make: Nothing to be done for `all'.
-01:51:13 **** Incremental Build of configuration Debug for project Carlogs ****
+16:22:43 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 Building file: ../Src/main.c
 Invoking: MCU GCC Compiler
 /Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
 arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
 ../Src/main.c: In function 'main':
-../Src/main.c:130:20: warning: unused variable 'RxMessage' [-Wunused-variable]
-    CanRxMsgTypeDef RxMessage;
-                    ^
+../Src/main.c:115:3: warning: implicit declaration of function 'HAL_FLASHEx_OB_DeSelectPCROP' [-Wimplicit-function-declaration]
+   HAL_FLASHEx_OB_DeSelectPCROP();
+   ^
 Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Src/main.o: In function `main':
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug/../Src/main.c:115: undefined reference to `HAL_FLASHEx_OB_DeSelectPCROP'
+collect2: error: ld returned 1 exit status
+make: *** [Carlogs.elf] Error 1
+17:48:43 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/can.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/can.d" -MT"Src/can.o" -o "Src/can.o" "../Src/can.c"
+Finished building: ../Src/can.c
+ 
+Building file: ../Src/gpio.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/gpio.d" -MT"Src/gpio.o" -o "Src/gpio.o" "../Src/gpio.c"
+Finished building: ../Src/gpio.c
+ 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:114:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:112:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/rtc.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/rtc.d" -MT"Src/rtc.o" -o "Src/rtc.o" "../Src/rtc.c"
+Finished building: ../Src/rtc.c
+ 
+Building file: ../Src/spi.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/spi.d" -MT"Src/spi.o" -o "Src/spi.o" "../Src/spi.c"
+Finished building: ../Src/spi.c
+ 
+Building file: ../Src/stm32f1xx_hal_msp.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_hal_msp.d" -MT"Src/stm32f1xx_hal_msp.o" -o "Src/stm32f1xx_hal_msp.o" "../Src/stm32f1xx_hal_msp.c"
+Finished building: ../Src/stm32f1xx_hal_msp.c
+ 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:19: warning: unused variable 'INCOMING' [-Wunused-variable]
+   CanRxMsgTypeDef INCOMING;
+                   ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building file: ../Src/system_stm32f1xx.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/system_stm32f1xx.d" -MT"Src/system_stm32f1xx.o" -o "Src/system_stm32f1xx.o" "../Src/system_stm32f1xx.c"
+Finished building: ../Src/system_stm32f1xx.c
+ 
+Building file: ../Src/usart.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/usart.d" -MT"Src/usart.o" -o "Src/usart.o" "../Src/usart.c"
+Finished building: ../Src/usart.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
  
 Building target: Carlogs.elf
 Invoking: MCU GCC Linker
@@ -32,17 +228,74 @@ Generating binary and Printing size information:
 arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
 arm-none-eabi-size "Carlogs.elf"
    text	   data	    bss	    dec	    hex	filename
-   9756	     12	   1884	  11652	   2d84	Carlogs.elf
+  10224	     12	   1884	  12120	   2f58	Carlogs.elf
  
-01:51:20 **** Incremental Build of configuration Debug for project Carlogs ****
+17:49:06 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 make: Nothing to be done for `all'.
-01:53:35 **** Incremental Build of configuration Debug for project Carlogs ****
+17:53:23 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:19: warning: unused variable 'INCOMING' [-Wunused-variable]
+   CanRxMsgTypeDef INCOMING;
+                   ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10224	     12	   1884	  12120	   2f58	Carlogs.elf
+ 
+17:53:48 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:00:32 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 Building file: ../Src/main.c
 Invoking: MCU GCC Compiler
 /Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
 arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:131:5: error: too few arguments to function 'HAL_CAN_Receive_IT'
+     HAL_CAN_Receive_IT() ;
+     ^
+In file included from /Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc/stm32f1xx_hal_conf.h:235:0,
+                 from /Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:48,
+                 from ../Src/main.c:40:
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h:718:19: note: declared here
+ HAL_StatusTypeDef HAL_CAN_Receive_IT(CAN_HandleTypeDef *hcan, uint8_t FIFONumber);
+                   ^
+../Src/main.c:114:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:112:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+make: *** [Src/main.o] Error 1
+18:02:33 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:114:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:112:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
 Finished building: ../Src/main.c
  
 Building target: Carlogs.elf
@@ -55,8 +308,583 @@ Generating binary and Printing size information:
 arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
 arm-none-eabi-size "Carlogs.elf"
    text	   data	    bss	    dec	    hex	filename
-   9760	     12	   1884	  11656	   2d88	Carlogs.elf
+  10532	     12	   1884	  12428	   308c	Carlogs.elf
  
-01:53:41 **** Incremental Build of configuration Debug for project Carlogs ****
+18:02:59 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:06:14 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:116:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:114:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:19: warning: unused variable 'INCOMING' [-Wunused-variable]
+   CanRxMsgTypeDef INCOMING;
+                   ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10544	     12	   1884	  12440	   3098	Carlogs.elf
+ 
+18:06:43 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:10:23 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:19: warning: unused variable 'INCOMING' [-Wunused-variable]
+   CanRxMsgTypeDef INCOMING;
+                   ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10532	     12	   1884	  12428	   308c	Carlogs.elf
+ 
+18:10:31 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:19: warning: unused variable 'INCOMING' [-Wunused-variable]
+   CanRxMsgTypeDef INCOMING;
+                   ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10532	     12	   1884	  12428	   308c	Carlogs.elf
+ 
+18:11:05 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:14:45 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:118:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:116:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10536	     12	   1924	  12472	   30b8	Carlogs.elf
+ 
+18:14:49 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:16:31 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:203:18: error: request for member 'Data' in something not a structure or union
+    a=hcan1.pRxMsg.Data[0];
+                  ^
+make: *** [Src/stm32f1xx_it.o] Error 1
+18:16:36 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:203:18: error: request for member 'Data' in something not a structure or union
+    a=hcan1.pRxMsg.Data[0];
+                  ^
+make: *** [Src/stm32f1xx_it.o] Error 1
+18:17:05 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10548	     12	   1924	  12484	   30c4	Carlogs.elf
+ 
+18:17:09 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:19:37 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:204:6: error: redefinition of 'a'
+  int a = 0;
+      ^
+../Src/stm32f1xx_it.c:198:6: note: previous definition of 'a' was here
+  int a = 0;
+      ^
+make: *** [Src/stm32f1xx_it.o] Error 1
+18:19:49 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10548	     12	   1924	  12484	   30c4	Carlogs.elf
+ 
+18:19:52 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:20:47 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:20:49 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:27:25 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:137:4: warning: label '__HAL_CAN_ENABLE_IT' defined but not used [-Wunused-label]
+    __HAL_CAN_ENABLE_IT:
+    ^
+../Src/main.c:118:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:116:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10548	     12	   1924	  12484	   30c4	Carlogs.elf
+ 
+18:27:45 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:29:10 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:138:4: warning: label '__HAL_CAN_ENABLE_IT' defined but not used [-Wunused-label]
+    __HAL_CAN_ENABLE_IT:
+    ^
+../Src/main.c:119:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:117:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10564	     12	   1924	  12500	   30d4	Carlogs.elf
+ 
+18:29:46 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:29:50 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:30:41 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:154:5: warning: unused variable 'boo' [-Wunused-variable]
+ int boo = coont;
+     ^
+../Src/main.c:138:4: warning: label '__HAL_CAN_ENABLE_IT' defined but not used [-Wunused-label]
+    __HAL_CAN_ENABLE_IT:
+    ^
+../Src/main.c:119:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:117:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10564	     12	   1924	  12500	   30d4	Carlogs.elf
+ 
+18:30:44 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:31:18 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:155:10: error: 'bob' undeclared (first use in this function)
+      if (bob > 9) {
+          ^
+../Src/main.c:155:10: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:154:5: warning: unused variable 'boo' [-Wunused-variable]
+ int boo = coont;
+     ^
+../Src/main.c:138:4: warning: label '__HAL_CAN_ENABLE_IT' defined but not used [-Wunused-label]
+    __HAL_CAN_ENABLE_IT:
+    ^
+../Src/main.c:119:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:117:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+make: *** [Src/main.o] Error 1
+18:31:28 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:138:4: warning: label '__HAL_CAN_ENABLE_IT' defined but not used [-Wunused-label]
+    __HAL_CAN_ENABLE_IT:
+    ^
+../Src/main.c:119:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:117:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10564	     12	   1924	  12500	   30d4	Carlogs.elf
+ 
+18:31:32 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:36:19 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/can.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/can.d" -MT"Src/can.o" -o "Src/can.o" "../Src/can.c"
+Finished building: ../Src/can.c
+ 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:204:2: error: '__HAL_CAN_CLEAR_FLAG' undeclared (first use in this function)
+  __HAL_CAN_CLEAR_FLAG;
+  ^
+../Src/stm32f1xx_it.c:204:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/stm32f1xx_it.o] Error 1
+18:36:29 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10564	     12	   1924	  12500	   30d4	Carlogs.elf
+ 
+18:36:35 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:36:48 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:40:25 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10572	     12	   1924	  12508	   30dc	Carlogs.elf
+ 
+18:40:30 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:41:10 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10580	     12	   1924	  12516	   30e4	Carlogs.elf
+ 
+18:41:17 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:47:36 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:201:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a = 0;
+      ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10580	     12	   1924	  12516	   30e4	Carlogs.elf
+ 
+18:47:57 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+18:49:43 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a = 0;
+      ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10596	     12	   1924	  12532	   30f4	Carlogs.elf
+ 
+18:49:47 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+19:15:30 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:138:4: warning: label '__HAL_CAN_ENABLE_IT' defined but not used [-Wunused-label]
+    __HAL_CAN_ENABLE_IT:
+    ^
+../Src/main.c:119:11: warning: unused variable 'aTxBuffer' [-Wunused-variable]
+   uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+           ^
+../Src/main.c:117:11: warning: unused variable 'aRxBuffer' [-Wunused-variable]
+   uint8_t aRxBuffer[BUFFERSIZE];
+           ^
+Finished building: ../Src/main.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10604	     12	   1924	  12540	   30fc	Carlogs.elf
+ 
+19:15:42 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+make: Nothing to be done for `all'.
+19:19:29 **** Incremental Build of configuration Debug for project Carlogs ****
+make all 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F107xC -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Drivers/CMSIS/Include" -I"/Users/Emmet/Projects/CarLogs/Firmware/Carlogs/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+../Src/stm32f1xx_it.c: In function 'CAN1_RX0_IRQHandler':
+../Src/stm32f1xx_it.c:202:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  int a = 0;
+      ^
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building target: Carlogs.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F107VCTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "Carlogs.elf" @"objects.list"  
+Finished building target: Carlogs.elf
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "Carlogs.elf" "Carlogs.bin"
+arm-none-eabi-size "Carlogs.elf"
+   text	   data	    bss	    dec	    hex	filename
+  10596	     12	   1924	  12532	   30f4	Carlogs.elf
+ 
+19:20:13 **** Incremental Build of configuration Debug for project Carlogs ****
 make all 
 make: Nothing to be done for `all'.

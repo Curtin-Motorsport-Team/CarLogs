@@ -67,6 +67,11 @@ void SystemClock_Config(void);
 
 /* USER CODE END 0 */
 
+int dda = 0;
+CanRxMsgTypeDef RxMessage;
+
+int coont = 0;
+
 int main(void)
 {
 
@@ -104,15 +109,54 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-  /* USER CODE END WHILE */
 
-  /* USER CODE BEGIN 3 */
+ hspi1.Init.Mode = SPI_MODE_SLAVE;
 
-  }
-  /* USER CODE END 3 */
+#define BUFFERSIZE 2
 
+  uint8_t aRxBuffer[BUFFERSIZE];
+
+  uint8_t aTxBuffer[BUFFERSIZE] = {77, 21};
+
+  char a = 18, b =19, id = 18;
+  CAN_FilterConfTypeDef  sFilterConfig;
+
+  sFilterConfig.FilterNumber = 0;
+    sFilterConfig.FilterMode = CAN_FILTERMODE_IDMASK;
+    sFilterConfig.FilterScale = CAN_FILTERSCALE_32BIT;
+    sFilterConfig.FilterIdHigh = 0x0000;
+    sFilterConfig.FilterIdLow = 0x0000;
+    sFilterConfig.FilterMaskIdHigh = 0x0000;
+    sFilterConfig.FilterMaskIdLow = 0x0000;
+    sFilterConfig.FilterFIFOAssignment = CAN_FIFO0;
+    sFilterConfig.FilterActivation = ENABLE;
+    sFilterConfig.BankNumber = 14;
+
+    HAL_CAN_ConfigFilter(&hcan1, &sFilterConfig);
+
+  	  hcan1.pRxMsg = &RxMessage;
+  	__HAL_CAN_ENABLE_IT:
+    HAL_CAN_Receive_IT(&hcan1, CAN_FIFO0) ;
+    while (1)
+    {
+  	  CanTxMsgTypeDef TxMessage;
+  	  hcan1.pTxMsg = &TxMessage;
+  	  hcan1.pTxMsg->StdId = id;
+  	  hcan1.pTxMsg->RTR = CAN_RTR_DATA;
+  	  hcan1.pTxMsg->IDE = CAN_ID_STD;
+  	  hcan1.pTxMsg->DLC=2;
+  	  hcan1.pTxMsg->Data[0] = a;
+  	  hcan1.pTxMsg->Data[1] = b;
+
+  	  if (dda) {
+  	  HAL_CAN_Transmit(&hcan1, 10);
+  	  }
+  	  if (coont > 0) {
+  	  	  hcan1.pTxMsg->Data[0] = coont;
+  	  	  HAL_CAN_Transmit(&hcan1, 10);
+  	  	  coont = 0;
+  	  	  }
+    }
 }
 
 /** System Clock Configuration

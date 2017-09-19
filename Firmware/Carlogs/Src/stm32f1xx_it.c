@@ -40,6 +40,8 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern CAN_HandleTypeDef hcan1;
+extern CAN_HandleTypeDef hcan2;
 
 /******************************************************************************/
 /*            Cortex-M3 Processor Interruption and Exception Handlers         */ 
@@ -182,6 +184,92 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32f1xx.s).                    */
 /******************************************************************************/
+
+/**
+* @brief This function handles CAN1 RX0 interrupt.
+*/
+
+extern CAN_HandleTypeDef hcan1;
+extern CAN_HandleTypeDef hcan2;
+extern CanRxMsgTypeDef RxMessage;
+extern int coont;
+
+void CAN1_RX0_IRQHandler(void)
+{
+    //HAL_CAN_Receive_IT(&hcan1, CAN_FIFO0) ;
+
+  /* USER CODE BEGIN CAN1_RX0_IRQn 0 */
+	int a = 0;
+
+	  a = RxMessage.Data[0];
+	  coont = RxMessage.Data[0];
+
+  /* USER CODE END CAN1_RX0_IRQn 0 */
+ HAL_CAN_IRQHandler(&hcan1);
+ HAL_CAN_Receive_IT(&hcan1, CAN_FIFO0) ;
+
+
+  /* USER CODE BEGIN CAN1_RX0_IRQn 1 */
+
+  /* USER CODE END CAN1_RX0_IRQn 1 */
+}
+
+/**
+* @brief This function handles CAN1 RX1 interrupt.
+*/
+void CAN1_RX1_IRQHandler(void)
+{
+  /* USER CODE BEGIN CAN1_RX1_IRQn 0 */
+
+  /* USER CODE END CAN1_RX1_IRQn 0 */
+  HAL_CAN_IRQHandler(&hcan1);
+  /* USER CODE BEGIN CAN1_RX1_IRQn 1 */
+
+  int a = 0;
+
+  a = a+1;
+
+  /* USER CODE END CAN1_RX1_IRQn 1 */
+}
+
+/**
+* @brief This function handles CAN2 RX0 interrupt.
+*/
+
+void CAN2_RX0_IRQHandler(void)
+{
+  /* USER CODE BEGIN CAN2_RX0_IRQn 0 */
+
+  /* USER CODE END CAN2_RX0_IRQn 0 */
+  HAL_CAN_IRQHandler(&hcan2);
+  /* USER CODE BEGIN CAN2_RX0_IRQn 1 */
+
+  int a = 0;
+
+  a = a+1;
+
+
+  /* USER CODE END CAN2_RX0_IRQn 1 */
+}
+
+/**
+* @brief This function handles CAN2 RX1 interrupt.
+*/
+void CAN2_RX1_IRQHandler(void)
+{
+  /* USER CODE BEGIN CAN2_RX1_IRQn 0 */
+
+  /* USER CODE END CAN2_RX1_IRQn 0 */
+  HAL_CAN_IRQHandler(&hcan2);
+  /* USER CODE BEGIN CAN2_RX1_IRQn 1 */
+
+  int a = 0;
+
+  a = a+1;
+
+
+  /* USER CODE END CAN2_RX1_IRQn 1 */
+}
 
 /* USER CODE BEGIN 1 */
 
