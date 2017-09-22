@@ -44,7 +44,7 @@ extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 
 /******************************************************************************/
-/*            Cortex-M3 Processor Interruption and Exception Handlers         */ 
+/*            Cortex-M3 Processor Interruption and Exception Handlers         */
 /******************************************************************************/
 
 /**
@@ -185,33 +185,36 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32f1xx.s).                    */
 /******************************************************************************/
 
-/**
-* @brief This function handles CAN1 RX0 interrupt.
-*/
+
+#include "Carlogs_ANPP/an_packet_protocol.h"
+#include "Carlogs_ANPP/carlogs_packets.h"
 
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 extern CanRxMsgTypeDef RxMessage;
-extern int coont;
+extern uint8_t SPI_Tx_q[100], SPI_q_i = 0;
 
 void CAN1_RX0_IRQHandler(void)
 {
-    //HAL_CAN_Receive_IT(&hcan1, CAN_FIFO0) ;
+	  can_packet_t can_anpp;
+    an_packet_t an_packet;
 
-  /* USER CODE BEGIN CAN1_RX0_IRQn 0 */
-	int a = 0;
+    can_anpp.bus_id = 0;
+	  can_anpp.dlc = RxMessage.DLC;
+	  can_anpp.id = RxMessage.StdId;
+	  memcpy(&can_anpp.data[0], &RxMessage.Data[0], 8*sizeof(uint8_t));
 
-	  a = RxMessage.Data[0];
-	  coont = RxMessage.Data[0];
+    encode_can_packet(&an_packet, &can_anpp);
+    an_packet_encode(an_packet);
 
-  /* USER CODE END CAN1_RX0_IRQn 0 */
- HAL_CAN_IRQHandler(&hcan1);
- HAL_CAN_Receive_IT(&hcan1, CAN_FIFO0) ;
+    asm ("CPSID  i"); // Enter Critical Section
+      memcpy(&SPI_Tx_q[SPI_q_i], &an_packet->header[0],
+                (an_packet->length + 5)*sizeof(uint8_t));
+      SPI_q_i = SPI_q_i + an_packet->length + 5;
+    asm ("CPSIE  i"); // Exit Critical Section
 
-
-  /* USER CODE BEGIN CAN1_RX0_IRQn 1 */
-
-  /* USER CODE END CAN1_RX0_IRQn 1 */
+    HAL_CAN_IRQHandler(&hcan1);
+    HAL_CAN_Receive_IT(&hcan1, CAN_FIFO0);
 }
 
 /**
